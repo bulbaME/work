@@ -1,0 +1,70 @@
+{
+    "services": [
+        {
+            "title": "Branding and Identity",
+            "descr": "Establish a strong and distinctive brand identity that resonates with your target audience and sets you apart from the competition.",
+            "link": "/services/branding_and_identity",
+            "sub_services": [
+                {
+                    "title": "Logo Design",
+                    "descr": "Create a visually striking and memorable logo that encapsulates your brand's essence and represents your values.",
+                    "price": "$99"
+                },
+                {
+                    "title": "Brand Messaging",
+                    "descr": "Craft a compelling brand story and messaging strategy that effectively communicates your unique value proposition and resonates with your target customers.",
+                    "price": "$249"
+                },
+                {
+                    "title": "Brand Style Guide",
+                    "descr": "Develop a comprehensive brand style guide that outlines your brand's visual elements, including color palettes, typography, and usage guidelines, ensuring consistency across all marketing materials.",
+                    "price": "$199"
+                }
+            ]
+        },
+        {
+            "title": "Web Design and Development",
+            "descr": "Create user-friendly and visually appealing websites that provide a seamless online experience and drive engagement and conversions.",
+            "link": "/services/web_design_and_development",
+            "sub_services": [
+                {
+                    "title": "Responsive Web Design",
+                    "descr": "Design websites that adapt seamlessly to different devices and screen sizes, ensuring optimal user experience and engagement.",
+                    "price": "$299"
+                },
+                {
+                    "title": "E-commerce Development",
+                    "descr": "Build robust and secure e-commerce platforms that enable easy online transactions, inventory management, and seamless customer experiences.",
+                    "price": "$399"
+                },
+                {
+                    "title": "Website Maintenance and Support",
+                    "descr": "Provide ongoing website updates, security monitoring, and technical support to ensure your website remains up-to-date, secure, and performs optimally.",
+                    "price": "$599"
+                }
+            ]
+        },
+        {
+            "title": "Print and Digital Design",
+            "descr": "Engage your audience across various mediums with visually stunning designs that leave a lasting impression.",
+            "link": "/services/print_and_digital_design",
+            "sub_services": [
+                {
+                    "title": "Print Collateral Design",
+                    "descr": "Design captivating brochures, flyers, and business cards that effectively communicate your brand's message and capture attention.",
+                    "price": "$99"
+                },
+                {
+                    "title": "Social Media Graphics",
+                    "descr": "Create visually appealing and shareable graphics for your social media platforms to enhance brand visibility and engage your online community.",
+                    "price": "$199"
+                },
+                {
+                    "title": "Digital Ad Design",
+                    "descr": "Craft eye-catching and persuasive digital ads for online campaigns that drive clicks, conversions, and brand awareness.",
+                    "price": "$149"
+                }
+            ]
+        }
+    ]
+}

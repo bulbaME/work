@@ -1,0 +1,79 @@
+{
+    "services": [
+        {
+            "title": "On-Page Optimization Services",
+            "link": "/services/onpage-optimization-services",
+            "text": "Enhance your website's visibility and improve its search engine rankings with our comprehensive on-page optimization services. Our team of SEO experts will analyze your website's structure, content, and HTML elements to ensure it is fully optimized for search engines. By implementing proven strategies and techniques, we'll help you attract more organic traffic and increase your chances of conversion.",
+            "sub_services": [
+                {
+                    "title": "Keyword Research and Optimization",
+                    "text": "We'll conduct in-depth keyword research to identify high-volume and relevant keywords for your business. By optimizing your website's content and meta tags with these targeted keywords, we'll improve your organic search visibility and drive qualified traffic to your site.",
+                    "price": "$500",
+                    "per": "website"
+                },
+                {
+                    "title": "Title and Meta Tag Optimization",
+                    "text": "Our experts will optimize your website's title tags, meta descriptions, and header tags to align with your target keywords and improve click-through rates in search engine results. By crafting compelling and relevant tags, we'll enhance your website's visibility and encourage more clicks from potential customers.",
+                    "price": "$300",
+                    "per": "website"
+                },
+                {
+                    "title": "URL Structure Optimization",
+                    "text": "We'll optimize your website's URL structure to make it search engine friendly and user-friendly. By incorporating keywords and removing unnecessary elements, we'll improve your website's ranking potential and provide a better user experience.",
+                    "price": "$200",
+                    "per": "website"
+                }
+            ]
+        },
+        {
+            "title": "Content Marketing Services",
+            "link": "/services/content-marketing-services",
+            "text": "Engage your target audience, establish thought leadership, and drive organic traffic with our content marketing services. Our team of skilled content creators and strategists will develop high-quality, relevant, and shareable content to boost your online presence and attract more visitors to your website.",
+            "sub_services": [
+                {
+                    "title": "Blog Article Writing and Optimization",
+                    "text": "Our expert writers will create well-researched and engaging blog articles that align with your target audience's interests and industry trends. Each article will be optimized for relevant keywords, helping your website rank higher in search engine results and providing valuable information to your readers.",
+                    "price": "$150",
+                    "per": "article"
+                },
+                {
+                    "title": "Social Media Content Creation and Management",
+                    "text": "We'll create compelling social media content that resonates with your audience and promotes your brand effectively. Our team will develop engaging posts, schedule regular updates, and monitor social media channels to drive user engagement, increase brand awareness, and generate website traffic.",
+                    "price": "$400",
+                    "per": "month"
+                },
+                {
+                    "title": "Infographic Design and Promotion",
+                    "text": "Our designers will create visually appealing and informative infographics that present complex data or concepts in a user-friendly format. We'll not only design the infographic but also promote it through various channels, including social media, industry publications, and relevant websites, to generate backlinks and increase your brand visibility.",
+                    "price": "$600",
+                    "per": "infographic"
+                }
+            ]
+        },
+        {
+            "title": "Local SEO Services",
+            "link": "/services/local-seo-services",
+            "text": "Capture the attention of local customers and dominate the local search results with our specialized local SEO services. We'll optimize your website, business listings, and online presence to improve your visibility in local search queries, driving more foot traffic and leads to your physical store or service area.",
+            "sub_services": [
+                {
+                    "title": "Google My Business Optimization",
+                    "text": "We'll set up and optimize your Google My Business listing, ensuring accurate and consistent information across all relevant platforms. By optimizing your GMB profile with relevant keywords, images, and customer reviews, we'll increase your chances of appearing in the local pack and attracting nearby customers.",
+                    "price": "$300",
+                    "per": "website"
+                },
+                {
+                    "title": "Local Citation Building",
+                    "text": "Our team will create high-quality local citations on authoritative directories and listings specific to your industry and location. These citations will not only improve your local search visibility but also provide valuable backlinks to boost your website's authority.",
+                    "price": "$500",
+                    "per": "50 citations"
+                },
+                {
+                    "title": "Online Reputation Management",
+                    "text": "We'll monitor and manage your online reputation by tracking reviews, addressing customer feedback, and promoting positive customer experiences. Our team will work to improve your overall online reputation and build trust with potential customers, helping you stand out from competitors in the local market.",
+                    "price": "$800",
+                    "per": "month"
+                }
+            ]
+        }
+    ]
+}

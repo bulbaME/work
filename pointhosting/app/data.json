@@ -1,0 +1,97 @@
+{
+    "services": [
+        {
+            "title": "Business Hosting",
+            "text": "Power your online business with our reliable hosting solutions tailored to meet the demands of businesses of all sizes. We provide the essential features and robust infrastructure to ensure your website is fast, secure, and always accessible.",
+            "link": "/services/business-hosting",
+            "services": [
+                {
+                    "title": "Dedicated server hosting",
+                    "text": "Enjoy the exclusive resources and enhanced performance of a dedicated server to handle high traffic and resource-intensive applications.",
+                    "price": "$200",
+                    "per": "month"
+                },
+                {
+                    "title": "E-commerce platform support",
+                    "text": "Seamlessly integrate popular e-commerce platforms like Magento or WooCommerce to set up and manage your online store. ",
+                    "price": "$100",
+                    "per": "one-time fee"
+                },
+                {
+                    "title": "Business email hosting",
+                    "text": "Create professional email addresses using your domain name to establish a credible and branded communication channel. ",
+                    "price": "$10",
+                    "per": "month per user"
+                },
+                {
+                    "title": "Data backup and disaster recovery",
+                    "text": "We regularly back up your website's data and provide disaster recovery solutions to ensure your business-critical information is protected. ",
+                    "price": "$50",
+                    "per": "month"
+                }
+            ]
+        },
+        {
+            "title": "Agency Hosting",
+            "text": "Empower your digital agency with our hosting services designed to support multiple client websites efficiently. Our scalable infrastructure and management tools streamline your workflow and enable you to deliver top-notch performance to your clients.",
+            "link": "/services/agency-hosting",
+            "services": [
+                {
+                    "title": "Reseller Hosting",
+                    "text": "Host and manage multiple client websites under a single hosting account, providing them with individual cPanel access and resource allocations. ",
+                    "price": "$100",
+                    "per": "month"
+                },
+                {
+                    "title": "White-label hosting",
+                    "text": "Customize the hosting environment with your agency's branding, including custom nameservers and branded control panel.",
+                    "price": "$30",
+                    "per": "month"
+                },
+                {
+                    "title": "Staging environments",
+                    "text": " Create staging environments for client websites to safely test updates, design changes, and new features before deploying them live.",
+                    "price": "$20",
+                    "per": "month"
+                },
+                {
+                    "title": "Developer tools and support",
+                    "text": "Access developer-friendly features, such as SSH access, Git integration, and support for multiple programming languages, to enhance your development process.",
+                    "price": "$50",
+                    "per": "month"
+                }
+            ]
+        },
+        {
+            "title": "WordPress Hosting",
+            "text": "Optimize your WordPress website's performance, security, and user experience with our specialized hosting solutions. Our server configurations and WordPress-focused features ensure seamless operation and optimal WordPress performance.",
+            "link": "/services/wordpress-hosting",
+            "services": [
+                {
+                    "title": "Managed WordPress hosting",
+                    "text": "Leave the technical aspects to us while we handle core updates, security patches, and backups, allowing you to focus on creating exceptional content",
+                    "price": "$30",
+                    "per": "month"
+                },
+                {
+                    "title": "WordPress optimization",
+                    "text": "We implement caching, content delivery networks (CDNs), and performance optimizations to enhance your website's loading speed and overall performance.",
+                    "price": "$50",
+                    "per": "one-time fee"
+                },
+                {
+                    "title": "WordPress security",
+                    "text": "Our hosting solutions include advanced security measures like malware scanning, firewalls, and brute-force protection to safeguard your WordPress website.",
+                    "price": "$20",
+                    "per": "month"
+                },
+                {
+                    "title": "WordPress-specific support",
+                    "text": "Our expert support team is well-versed in WordPress and is available 24/7 to assist you with any WordPress-related queries or issues. ",
+                    "price": "$30",
+                    "per": "month"
+                }
+            ]
+        }
+    ]
+}

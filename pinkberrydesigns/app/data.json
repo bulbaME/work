@@ -1,0 +1,79 @@
+{
+    "services": [
+        {
+            "title": "Elegant Branding Solutions",
+            "link": "/services/elegant-branding-solutions",
+            "text": "Our Elegant Branding Solutions service theme is designed to help businesses create a cohesive and visually appealing brand identity. We offer a comprehensive package that includes logo design, brand guidelines, and stationary design.",
+            "services": [
+                {
+                    "title": "Logo Design",
+                    "text": "Our expert designers will craft a unique and impactful logo that embodies your brand's essence",
+                    "price": "$500",
+                    "per": "project"
+                },
+                {
+                    "title": "Brand Guidelines",
+                    "text": "We will develop a comprehensive set of guidelines that outline your brand's visual elements, including color palette, typography, and usage guidelines.",
+                    "price": "$300",
+                    "per": "project"
+                },
+                {
+                    "title": "Stationary Design",
+                    "text": "We'll design business cards, letterheads, and other stationary items to ensure consistency across all your brand collateral.",
+                    "price": "$200",
+                    "per": "project"
+                }
+            ]
+        },
+        {
+            "title": "Engaging Website Development",
+            "link": "/services/engaging-website-development",
+            "text": "Our Engaging Website Development service theme focuses on creating visually stunning and user-friendly websites that captivate your audience. We provide a range of services to build and optimize your online presence.",
+            "services": [
+                {
+                    "title": "Website Design",
+                    "text": "Our team will design a custom website tailored to your brand's unique requirements. ",
+                    "price": "$1000",
+                    "per": "project"
+                },
+                {
+                    "title": "Responsive Development",
+                    "text": "We'll ensure your website is fully responsive, adapting seamlessly to different devices and screen sizes.",
+                    "price": "$300",
+                    "per": "project"
+                },
+                {
+                    "title": "Search Engine Optimization (SEO)",
+                    "text": "We'll optimize your website's content and structure to improve its visibility on search engines.",
+                    "price": "$500",
+                    "per": "month"
+                }
+            ]
+        },
+        {
+            "title": "Compelling Graphic Design",
+            "link": "/services/compelling-graphic-design",
+            "text": "Our Compelling Graphic Design service theme focuses on creating visually striking graphics that leave a lasting impact. From illustrations to social media graphics, we offer a range of services to meet your design needs.",
+            "services": [
+                {
+                    "title": "Illustration",
+                    "text": "Our skilled illustrators will create unique and captivating illustrations for your brand or project.",
+                    "price": "$200",
+                    "per": "illustration"
+                },
+                {
+                    "title": "Social Media Graphics",
+                    "text": "We'll design eye-catching graphics optimized for various social media platforms, helping you engage your audience effectively.",
+                    "price": "$150",
+                    "per": "set of 5"
+                },
+                {
+                    "title": "Print Design",
+                    "text": "From brochures to flyers, we'll design stunning print materials that effectively communicate your message. ",
+                    "price": "$300",
+                    "per": "one page"
+                }
+            ]
+        }
+    ]
+}

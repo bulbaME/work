@@ -1,0 +1,70 @@
+{
+    "services": [
+        {
+            "title": "Document Translation",
+            "text": "Document Translation services focus on accurately translating various types of documents to facilitate effective communication across languages.",
+            "link": "/services/document_translation",
+            "sub_services": [
+                {
+                    "title": "Legal Document Translation",
+                    "text": "This service involves translating legal documents such as contracts, agreements, intellectual property documentation, court transcripts, and legal correspondence. Our expert translators ensure precise and legally accurate translations, maintaining the integrity of the original content.",
+                    "price": "$9"
+                },
+                {
+                    "title": "Business Document Translation",
+                    "text": "Our Business Document Translation service covers a wide range of materials, including marketing materials, brochures, business plans, proposals, financial reports, and presentations. We translate these documents while capturing their intended tone and conveying your business message effectively.",
+                    "price": "$9"
+                },
+                {
+                    "title": "Academic Document Translation",
+                    "text": "Academic Document Translation involves translating research papers, articles, thesis and dissertation papers, and educational materials. Our translators, with subject matter expertise, ensure accurate translations that preserve the academic integrity and scholarly significance of the original content.",
+                    "price": "$9"
+                }
+            ]
+        },
+        {
+            "title": "Website Localization",
+            "text": "Website Localization services focus on adapting and translating websites to suit different languages, cultures, and target markets.",
+            "link": "/services/website_localization",
+            "sub_services": [
+                {
+                    "title": "Website Translation",
+                    "text": "Our Website Translation service involves translating website content, including text on webpages, ensuring that your message is accurately conveyed to a multilingual audience. We take cultural nuances into account to make the content resonate with the target audience.",
+                    "price": "$9"
+                },
+                {
+                    "title": "E-commerce Localization",
+                    "text": "E-commerce Localization encompasses translating product descriptions, details, and adapting them to suit the preferences and expectations of the target market. We also localize the shopping cart and checkout process, including currency formats and pricing, to create a seamless user experience.",
+                    "price": "$9"
+                },
+                {
+                    "title": "Multilingual SEO",
+                    "text": "Multilingual SEO involves conducting keyword research and localization to optimize your website for targeted markets. We help you adapt your website's meta tags, headings, and alt text for images to ensure maximum visibility and search engine ranking in different languages.",
+                    "price": "$9"
+                }
+            ]
+        },
+        {
+            "title": "Interpretation Services",
+            "text": "Interpretation Services focus on facilitating real-time oral communication between parties speaking different languages.",
+            "link": "/services/interpretation_services",
+            "sub_services": [
+                {
+                    "title": "Simultaneous Interpretation",
+                    "text": "Simultaneous Interpretation is ideal for conferences, seminars, and multilingual webinars. Our interpreters provide real-time interpretation, allowing participants to understand the content as it is delivered. This service ensures smooth communication across language barriers.",
+                    "price": "$9"
+                },
+                {
+                    "title": "Consecutive Interpretation",
+                    "text": "Consecutive Interpretation is suitable for business meetings, negotiations, legal proceedings, and medical consultations. Our interpreters listen to the speaker and convey the message in the target language during appropriate pauses, ensuring accurate and effective communication.",
+                    "price": "$9"
+                },
+                {
+                    "title": "Telephonic Interpretation",
+                    "text": "Telephonic Interpretation offers on-demand language assistance over the phone. This service is useful for customer support, helpdesk interactions, and remote communication where immediate interpretation is required. Our skilled interpreters facilitate smooth conversations between parties who do not share a common language.",
+                    "price": "$9"
+                }
+            ]
+        }
+    ]
+}

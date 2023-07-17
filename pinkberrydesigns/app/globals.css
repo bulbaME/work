@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.background-1 {
+    background-image: url('/svg/bg1.svg');
+    height: 100%;
+}
+
+.background-2 {
+    background-image: url('/svg/bg2.svg');
+    height: 100%;
+}
+
+.background-3 {
+    background-image: url('/svg/bg3.svg');
+    height: 100%;
+}
