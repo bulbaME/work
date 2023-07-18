@@ -1,118 +1,71 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Footer from "@/modules/footer";
+import Header from "@/modules/header";
+import { WidgetContacts, WidgetCta, WidgetFeatures, WidgetTestimonies } from "@/modules/widgets";
+import Link from "next/link";
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
-  return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">pages/index.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+export default function page() {
+    return <>
+        <Header page={1} />
+        <div className='max-w-7xl m-auto background-home py-12 p-4'>
+            <div className='w-fit m-auto text-4xl text-center sm:text-6xl font-bold text-white'>
+                Welcome to AkaCopywriter
+            </div>
+            <div className='font-bold w-fit m-auto text-xl sm:text-4xl my-4 text-y-d'>
+                Unlocking the Power of Words
+            </div>
+            <div className='flex flex-wrap pt-8'>
+                <div className='text-y-d text-center font-semibold text-lg sm:text-2xl sm:w-1/3 m-auto sm:mr-0 min-w-[20rem] mb-4'>
+                    {"We are a leading copywriting agency dedicated to unleashing the power of words. From captivating website content to engaging social media campaigns, our expert copywriters craft compelling narratives that drive results. Elevate your brand's voice and connect with your audience on a deeper level."}
+                </div>
+                <div className='m-auto sm:w-1/4 sm:ml-0 cursor-pointer mt-12'>
+                    <div className='font-bold text-3xl p-3 px-4 pb-1 bg-white rounded-full w-fit m-auto mt-2 mb-0 hover:mt-0 hover:mb-2 hover:drop-shadow-lg duration-300'>
+                        Reach out
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+        <div className='my-36 max-w-7xl m-auto p-4 flex flex-wrap'>
+            <div className='sm:w-2/3 pr-4'>
+                <div className='text-lg sm:text-2xl font-bold text-y'>
+                    {"Captivate, Persuade, Succeed"}
+                </div>
+                <div className='text-4xl sm:text-6xl font-bold my-4'>
+                    {"Ignite Your Brand's Potential with Our Expert Copywriting Services"}
+                </div>
+                <div className='sm:text-2xl text-lg font-semibold text-y'>
+                    {"At AkaCopywriter, we specialize in the power of words to captivate, persuade, and drive success. Our team of experienced copywriters knows how to craft compelling content that engages your target audience and elevates your brand. Whether you need website copy, social media campaigns, or email marketing, we're here to help you convey your message with impact and achieve your goals. Experience the transformative power of words with our expert copywriting services."}
+                </div>
+            </div>
+            <div className='sm:w-1/3 m-auto min-w-[15rem] p-8'>
+                <img src='/img/6.png' />
+            </div>
+        </div>
+        <div className='max-h-[36rem] w-fit my-8 m-auto p-4'>
+            <img src='/img/5.png' className='background-1 p-20 drop-shadow-lg' />
+        </div>
+        <div className='my-36 max-w-7xl m-auto p-4 flex flex-wrap'>
+            <div className='sm:w-2/3 pr-4'>
+                <div className='text-lg sm:text-2xl font-bold text-y'>
+                    {"Meet Our Team of Copywriting Maestros"}
+                </div>
+                <div className='text-4xl sm:text-6xl font-bold my-4'>
+                    {"Crafting Compelling Narratives to Elevate Your Brand"}
+                </div>
+                <div className='sm:text-2xl text-lg font-semibold text-y'>
+                    {"At AkaCopywriter, we are a team of passionate storytellers and wordsmiths. With a deep understanding of effective communication and branding, we bring your ideas to life through captivating copy. Our dedicated copywriters blend creativity with strategic thinking to deliver engaging content that resonates with your audience and drives meaningful results. We pride ourselves on our commitment to excellence, attention to detail, and a collaborative approach. Trust us to tell your brand's unique story and take it to new heights with our exceptional copywriting expertise."}
+                </div>
+                <div className='text-3xl font-bold w-fit m-auto bg-white pb-1 px-4 py-3 mt-6 mb-0 rounded-full text-center hover:mt-2 hover:mb-4 hover:drop-shadow-lg duration-300'>
+                    <Link href='/about'>Learn more about us</Link>
+                </div>
+            </div>
+            <div className='sm:w-1/3 m-auto min-w-[15rem] p-8'>
+                <img src='/img/7.png' />
+            </div>
+        </div>
+        <WidgetContacts />
+        <WidgetFeatures />
+        <WidgetCta title='Transform Your Message, Ignite Your Success' text="Unlock the Power of Compelling Copywriting Today" cta='Contact us' route='/contact' />
+        <WidgetTestimonies />
+        <Footer />
+    </>;
 }
