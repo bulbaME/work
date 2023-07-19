@@ -19,7 +19,7 @@ export default function page() {
                 </div>
                 <div className='m-auto sm:w-1/4 sm:ml-0 cursor-pointer mt-12'>
                     <div className='font-bold text-3xl p-3 px-4 pb-1 bg-white rounded-full w-fit m-auto mt-2 mb-0 hover:mt-0 hover:mb-2 hover:drop-shadow-lg duration-300'>
-                        Reach out
+                        <Link href='/contact'>Reach out</Link>
                     </div>
                 </div>
             </div>
