@@ -5,6 +5,7 @@ export default function Document() {
         <Html lang="en">
             <Head>
                 <link rel="icon" href="/img/favicon.ico" />
+                <title>AkaCopywriter - Copywriting Services</title>
             </Head>
             <body className='bg-stone-100'>
                 <Main />
