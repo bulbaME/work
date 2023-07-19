@@ -1,5 +1,6 @@
 import Footer from "@/modules/footer";
 import Header from "@/modules/header";
+import { Paragraph, ServiceCard, WidgetCta, WidgetFeatures } from "@/modules/widgets";
 
 import { services } from "@/public/json/data.json";
 
@@ -8,14 +9,16 @@ const s = services[2];
 export default function page() {
     return <>
         <Header page={7} />
-        <div className='max-w-7xl m-auto py-16 p-4'>
-            <div className='w-fit m-auto text-4xl text-center sm:text-6xl font-bold'>
-                {s.title}
-            </div>
-            <div className='font-bold w-fit m-auto text-lg sm:text-2xl max-w-4xl text-center my-4 text-y'>
-                {s.text}
-            </div>
+        <div className='sm:mt-0 -mt-[8rem]' />
+        <Paragraph title={s.title} slogan='Fuel Your Email Campaigns' text={s.text} img='/img/16.jpg' />
+        <div className='max-w-7xl m-auto p-4 flex flex-wrap'>
+            <ServiceCard title={s.services[0].title} text={s.services[0].text} price={s.services[0].price} per={s.services[0].per} />
+            <ServiceCard title={s.services[1].title} text={s.services[1].text} price={s.services[1].price} per={s.services[1].per} />
+            <ServiceCard title={s.services[2].title} text={s.services[2].text} price={s.services[2].price} per={s.services[2].per} />
+            <ServiceCard title={s.services[3].title} text={s.services[3].text} price={s.services[3].price} per={s.services[3].per} />
         </div>
+        <WidgetCta title="Transform Your Brand's Voice Today" text="Unlock the power of compelling copy. Get in touch with us today to discuss your copywriting needs and elevate your brand's messaging." cta='Contact us' route='/contact' />
+        <WidgetFeatures />
         <Footer />
     </>;
 }

@@ -28,3 +28,7 @@
 	background-repeat: no-repeat;
 	background-position: center; 
 }
+
+.h-c-1 {
+	height: calc(100vh - 15rem);
+}

@@ -21,6 +21,27 @@ export function ServicesCard(props) {
     </div>
 }
 
+export function ServiceCard(props) {
+    return <div className='m-auto p-4 sm:w-1/2 min-w-[20rem]'>
+        <div className='bg-white p-4 rounded-3xl mt-4 mb-0 hover:mt-0 hover:mb-4 hover:drop-shadow-lg duration-300'>
+            <div className='text-center font-bold sm:text-3xl text-xl'>
+                {props.title}
+            </div>
+            <div className='flex w-fit m-auto my-4'>
+                <div className='font-bold text-2xl m-auto'>{props.price}</div>
+                <div className='m-auto mx-2 text-xl'>/</div>
+                <div className='m-auto font-semibold text-xl underline decoration-y'>{props.per}</div>
+            </div>
+            <div className='text-center sm:text-2xl text-lg'>
+                {props.text}
+            </div>
+            <div className='bg-y p-3 px-4 pb-1 w-fit m-auto mt-4 mb-2 hover:mt-2 hover:mb-4 hover:drop-shadow-lg duration-300 rounded-full font-bold text-xl'>
+                <Link href='/contact'>Select</Link>
+            </div>
+        </div>
+    </div>;
+}
+
 function FeatureCard(props) {
     return <div className='flex flex-wrap my-24 sm:my-12'>
         <div className='bg-black h-1 sm:h-2 w-[1rem] sm:w-[2rem] my-4 mx-2 sm:mx-6' />
@@ -155,7 +176,7 @@ export function Paragraph(props) {
             </div>
             { props.img ?
                 <div className='sm:w-1/3 p-4 m-auto min-w-[15rem]'>
-                    <img src={props.img} />
+                    <img src={props.img} className='rounded-3xl drop-shadow-lg' />
                 </div>
             : '' }
         </div>
