@@ -2,8 +2,8 @@ const sendmail = require('sendmail')();
 
 const send_mail = (name, mail, product, text) => {
     sendmail({
-        from: 'no-reply@akacopywriter.com',
-        to: 'support@akacopywriter.com',
+        from: 'no-reply@discountdesigner.com',
+        to: 'support@discountdesigner.com',
         subject: `A person contacted \nName: ${name}\nE-mail: ${mail}\nService they need: ${product}`,
         html: text
     }, () => {});

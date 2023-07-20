@@ -1,0 +1,102 @@
+{
+    "services": [
+        {
+            "title": "Global Reach Solutions",
+            "text": "Expand your global reach with our website localization services, multilingual social media management, international SEO optimization, and virtual multilingual customer support.",
+            "link": "global-reach-solutions",
+            "services": [
+                {
+                    "title": "Website Localization",
+                    "text": "Expand your business's global presence by localizing your website content to resonate with diverse international audiences. Our expert linguists will adapt your website's text, images, and user interface to match the cultural nuances of each target market, ensuring a seamless user experience and increased engagement.",
+                    "price": "$300",
+                    "per": "web page"
+                },
+                {
+                    "title": "Multilingual Social Media Management",
+                    "text": "Enhance your social media reach by entrusting our team to manage your accounts in multiple languages. We'll create culturally-tailored posts, respond to comments and messages, and monitor trends to boost your brand's visibility worldwide.",
+                    "price": "$500",
+                    "per": "month (up to 3 social media platforms)"
+                },
+                {
+                    "title": "International SEO Optimization",
+                    "text": "Improve your website's ranking in global search engines with our specialized international SEO optimization. Our experts will conduct keyword research, optimize meta tags, and implement localization strategies to increase organic traffic from various regions.",
+                    "price": "$800",
+                    "per": "one-time fee"
+                },
+                {
+                    "title": "Certified Document Translation",
+                    "text": "Ensure accuracy and authenticity with our certified document translation services. Our qualified translators will provide official translations for legal documents, contracts, certificates, and more.",
+                    "price": "$50",
+                    "per": "page"
+                }
+            ]
+        },
+        {
+            "title": "Cultural Consulting and Transcreation",
+            "text": "Rely on our certified translation services for legal documents, immigration papers, certificates, and official business records.",
+            "link": "cultural-consulting-and-transcreation",
+            "services": [
+                {
+                    "title": "Cultural Market Research",
+                    "text": "Unlock new markets and tailor your products/services to specific cultural preferences with our in-depth cultural market research. Gain valuable insights into consumer behavior, traditions, and local trends to maximize your business potential.",
+                    "price": "$500",
+                    "per": "market analysis report"
+                },
+                {
+                    "title": "Brand Transcreation",
+                    "text": "Preserve the essence of your brand while adapting it to resonate with diverse cultures. Our transcreation experts will creatively adapt your brand messages, slogans, and visuals, ensuring consistency and emotional impact across languages.",
+                    "price": "$150",
+                    "per": "transcreated concept"
+                },
+                {
+                    "title": "Multilingual Content Strategy",
+                    "text": "Develop a cohesive content strategy that targets global audiences effectively. Our consultants will design a roadmap for creating culturally relevant content, taking into account regional holidays, events, and social norms.",
+                    "price": "$300",
+                    "per": "personalized content strategy plan"
+                },
+                {
+                    "title": "Cross-Cultural Training for Teams",
+                    "text": "Foster a culturally aware and inclusive workplace with our cross-cultural training workshops. Empower your team to navigate diverse working environments, enhance communication, and build stronger international partnerships.",
+                    "price": "$800",
+                    "per": "half-day training session (up to 15 participants)"
+                }
+            ]
+        },
+        {
+            "title": "Multilingual Content Creation",
+            "text": "Engage audiences worldwide with creative marketing content, multimedia localization, and tailored blog posts that resonate with diverse cultures.",
+            "link": "multilingual-content-creation",
+            "services": [
+                {
+                    "title": "Multilingual Copywriting",
+                    "text": "Reach audiences across borders with persuasive and localized copywriting services. Our skilled copywriters will adapt your marketing materials, ad campaigns, and product descriptions to connect with diverse markets.",
+                    "price": "$100",
+                    "per": "content piece"
+                },
+                {
+                    "title": "Multimedia Localization",
+                    "text": "Enhance the impact of your multimedia content with precise localization. From subtitles to voiceovers, our multimedia experts ensure your videos, presentations, and animations speak the language of your global audience.",
+                    "price": "$150",
+                    "per": "minute of multimedia"
+                },
+                {
+                    "title": "Blog and Article Translation",
+                    "text": "Expand your blog's reach by translating and localizing your articles. Our language specialists will ensure your blog posts are engaging, informative, and culturally relevant to attract readers from around the world.",
+                    "price": "$50",
+                    "per": "blog post or article"
+                },
+                {
+                    "title": "Social Media Content Adaptation",
+                    "text": "Maximize your social media impact with culturally tailored content. Our team will adapt your social media posts to resonate with different regions, allowing you to connect with followers worldwide.",
+                    "price": "$30",
+                    "per": "post (up to 100 words)"
+                }
+            ]
+        }
+    ],
+    "contacts": {
+        "phone": "+32 451 12 1451",
+        "mail": "support@target-translation.com",
+        "adress": "4047 NE 9th Ave, Portland, OR 97212, USA"
+    }
+}
