@@ -2,7 +2,7 @@
     "services": [
         {
             "title": "Website Design and Development",
-            "text": "Elevate Your Online Presence",
+            "text": "Our Website Design and Development services focus on creating visually stunning and highly functional websites that drive results. From responsive layouts to intuitive user interfaces, we ensure your website engages visitors across all devices. Our team combines creativity with technical expertise to craft a seamless user experience, making it easier for customers to connect with your brand and navigate your offerings. Whether you need a sleek corporate website or a robust e-commerce platform, we've got the skills to elevate your online presence and turn visitors into loyal customers.",
             "link": "/services/website-design-and-development",
             "services": [
                 {
@@ -19,7 +19,7 @@
                 },
                 {
                     "title": "E-commerce Website Design",
-                    "text": "If you're looking to launch or revamp your online store, our e-commerce website design service is here to help you succeed. We understand the importance of creating a visually appealing and user-friendly e-commerce platform that not only showcases your products but also drives conversions. Our team will collaborate with you to create an intuitive interface, streamline the purchase process, and implement secure payment gateways, providing a seamless shopping experience for your customers. From inventory management to product recommendations, we can incorporate advanced features that optimize your e-commerce operations.",
+                    "text": "If you're looking to launch or revamp your online store, our e-commerce website design service is here to help you succeed. We understand the importance of creating a visually appealing and user-friendly e-commerce platform that not only showcases your products but also drives conversions. Our team will collaborate with you to create an intuitive interface, streamline the purchase process, and implement secure payment gateways, providing a seamless shopping experience for your customers.",
                     "price": "$3,000",
                     "per": "website"
                 }
@@ -27,7 +27,7 @@
         },
         {
             "title": "Brand Identity Design",
-            "text": "Crafting Memorable Brand Experiences",
+            "text": "Brand Identity Design is at the core of what we do. Our expert designers are passionate about translating your brand's essence into a visual language that resonates with your target audience. From crafting memorable logos to defining color palettes and typography, we create a cohesive brand identity that conveys your values and personality. A strong brand identity strengthens your market position, builds trust with customers, and leaves a lasting impression. Let us help you establish a brand that stands the test of time and captures the hearts of your audience.",
             "link": "/services/brand-identity-design",
             "services": [
                 {
@@ -52,7 +52,7 @@
         },
         {
             "title": "UI/UX Design",
-            "text": "Creating Engaging User Experiences",
+            "text": "Brand Identity Design is at the core of what we do. Our expert designers are passionate about translating your brand's essence into a visual language that resonates with your target audience. From crafting memorable logos to defining color palettes and typography, we create a cohesive brand identity that conveys your values and personality. A strong brand identity strengthens your market position, builds trust with customers, and leaves a lasting impression. Let us help you establish a brand that stands the test of time and captures the hearts of your audience.",
             "link": "/services/ui-ux-design",
             "services": [
                 {
@@ -75,5 +75,11 @@
                 }
             ]
         }
-    ]
+    ],
+
+    "contacts": {
+        "phone": "+3 234 12 8901",
+        "mail": "support@discountdesigner.com",
+        "adress": "Rochester, MN 55902 USA"
+    }
 }

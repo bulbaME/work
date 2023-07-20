@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: 'Kanit', sans-serif;
+}
+
+.background-1 {
+	background-image: url('/svg/bg1.svg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.background-2 {
+	background-image: url('/svg/bg2.svg');
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.background-3 {
+	background-image: url('/img/bg1.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center; 
+}

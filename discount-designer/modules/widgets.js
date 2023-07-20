@@ -3,6 +3,59 @@ import Link from "next/link"
 import { useState } from "react";
 import { services } from "@/public/json/data.json";
 
+export function ServiceCard(props) {
+    return <div className='m-auto max-w-[26rem] p-4 text-black'>
+        <div className='p-4 rounded-3xl bg-white'>
+            <div className='text-3xl sm:text-5xl font-bold text-center mt-4'>
+                {props.title}
+            </div>
+            <div className='flex w-fit m-auto my-4'>
+                <div className='text-2xl font-bold underline decoration-v1-l m-auto'>
+                    {props.price}
+                </div>
+                <div className='m-auto mx-2'>/</div>
+                <div className='m-auto text-lg sm:text-xl font-medium'>
+                    {props.per}
+                </div>
+            </div>
+            <div className='text-center text-lg sm:text-xl font-medium my-8'>
+                {props.text}
+            </div>
+            <div className='py-4 w-fit m-auto hover:pt-0 hover:pb-8 hover:drop-shadow-xl duration-300'>
+                <div className='text-white text-3xl font-bold p-4 px-5 rounded-full bg-v1-l'>
+                    <Link href='/contact'>Select</Link>
+                </div>
+            </div>
+        </div>
+    </div>;
+}
+
+function ServicesCard(props) {
+    return <div className='m-auto p-4 my-12'>
+        <div className='border-[0.1rem] p-8 border-v1-l rounded-[4rem] py-14 text-white text-center'>
+            <div className='w-fit m-auto text-2xl sm:text-4xl font-bold'>
+                {props.title}
+            </div>
+            <div className='text-lg sm:text-2xl font-medium my-12 sm:px-8'>
+                {props.text}
+            </div>
+            <div className='w-fit m-auto py-4 hover:pt-0 hover:pb-8 duration-300'>
+                <div className='w-fit m-auto rounded-full p-3 px-4 bg-white text-black hover:text-white hover:bg-v1-m duration-300 font-bold text-xl sm:text-3xl'>
+                    <Link href={props.link}>Discover</Link>
+                </div>
+            </div>
+        </div>
+    </div>;
+}
+
+export function WidgetServices() {
+    return <div className='max-w-7xl m-auto flex flex-wrap my-32'>
+        <ServicesCard title={services[0].title} text={services[0].text} link={services[0].link} />
+        <ServicesCard title={services[1].title} text={services[1].text} link={services[1].link} />
+        <ServicesCard title={services[2].title} text={services[2].text} link={services[2].link} />
+    </div>;
+}
+
 function Tick() {
     return <div className='w-fit text-v1-l'>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
@@ -62,13 +115,13 @@ export function WidgetWhyUs() {
 export function Cta(props) {
     const [hover, setHover] = useState(false);
 
-    return <div className='max-w-7xl m-auto p-4 my-36'>
+    return <div className='max-w-7xl m-auto p-4 my-36 text-center'>
         <Link href={props.route} className='m-auto'>
             <div className='bg-v1-m rounded-full p-2 px-5 flex w-fit m-auto text-white' onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
                 <div className='w-fit text-lg sm:text-4xl font-semibold'>
                     {props.text}
                 </div>
-                <div className={'overflow-hidden transition-width duration-300 sm:h-auto h-0' + (hover ? ' sm:w-[4rem]':' w-0')}>
+                <div className={'overflow-hidden transition-width duration-300 sm:h-auto h-0' + (hover ? ' sm:w-[4rem] w-0':' w-0')}>
                     <div className='ml-5'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-12 h-12">
                         <path fillRule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clipRule="evenodd" />
@@ -95,28 +148,28 @@ export function Paragraph(props) {
     </div>;
 } 
 
-function ServiceCard(props) {
-    return <div className='p-4 flex'>
-        <Link href={props.link} className='m-auto hover:ml-[10%] ml-0 duration-300'>
-        <div>
-            <div className='p-2 sm:p-8 px-10 text-black bg-white w-fit text-center text-lg sm:text-5xl font-bold m-auto rounded-full border-v1-m border-8'>
-                {props.text}
+function ServiceSmallCard(props) {
+    return <div className='p-4 m-4 flex bg-v1-m rounded-full my-16'>
+        <Link href={props.link} className='m-auto hover:ml-[10%] ml-0 duration-300 flex'>
+            <div className='m-auto'>
+                <div className='bg-white p-4 sm:p-8 max-w-[6rem] sm:max-w-[10rem] rounded-full '>
+                    <img src={props.img} />
+                </div>
             </div>
-        </div>
+            <div className='m-auto'>
+                <div className='p-2 sm:p-8 px-10 pr-0 text-white text-lg sm:text-4xl font-bold m-auto rounded-full'>
+                    {props.text}
+                </div>
+            </div>
         </Link>
-        <div className='w-1/6 min-w-[8rem] m-auto px-2'>
-            <div className='bg-white p-4 sm:p-8 rounded-full border-v1-m border-8'>
-                <img src={props.img} />
-            </div>
-        </div>
     </div>;
 }
 
-export function WidgetServices() {
-    return <div className='max-w-7xl m-auto p-4'>
+export function WidgetServicesSmall() {
+    return <div className='max-w-6xl m-auto p-4'>
         <div className='w-fit m-auto text-center p-4 text-6xl font-bold text-white'>Our services</div>
-        <ServiceCard text={services[0].title} img='/img/5.png' link={services[0].link} />
-        <ServiceCard text={services[1].title} img='/img/6.png' link={services[1].link} />
-        <ServiceCard text={services[2].title} img='/img/7.png' link={services[2].link} />
+        <ServiceSmallCard text={services[0].title} img='/img/5.png' link={services[0].link} />
+        <ServiceSmallCard text={services[1].title} img='/img/6.png' link={services[1].link} />
+        <ServiceSmallCard text={services[2].title} img='/img/7.png' link={services[2].link} />
     </div>;
 }
