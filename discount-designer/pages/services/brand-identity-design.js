@@ -5,7 +5,7 @@ import { services } from "@/public/json/data.json";
 
 const s = services[1];
 
-export default function x() {
+export default function X() {
     return <> 
         <Header page={6} />
         <div className='text-center text-4xl sm:text-7xl text-white font-bold underline decoration-v1-l p-4 sm:py-16'>

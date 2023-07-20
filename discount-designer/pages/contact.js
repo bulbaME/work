@@ -10,7 +10,7 @@ import Header from "@/modules/header";
 
 import send_form from "@/modules/send_form";
 
-export default function x() {
+export default function X() {
     const [name, Setname] = useState('');
     const [mail, Setmail] = useState('');
     const [text, Settext] = useState('');

@@ -2,7 +2,7 @@ import Footer from "@/modules/footer";
 import Header from "@/modules/header";
 import { Cta, Paragraph, WidgetWhyUs } from "@/modules/widgets";
 
-export default function x() {
+export default function X() {
     return <>
         <Header page={4} />
         <div className='background-2 m-auto max-w-7xl'>
