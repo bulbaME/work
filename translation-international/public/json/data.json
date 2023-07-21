@@ -1,0 +1,113 @@
+{
+    "services": [
+        {
+            "title": "Business Localization Solutions",
+            "text_short": "Expand your business horizons with tailored localization services that resonate with target markets worldwide.",
+            "text_long": "Our Business Localization Solutions are designed to help businesses thrive in the global marketplace. We go beyond mere translation, ensuring your content, products, and marketing materials are culturally adapted to connect authentically with local audiences. From website localization and market research to brand consulting, our experts have the knowledge and experience to propel your business toward international success.",
+            "link": "/services/business-localization-solutions",
+            "services": [
+                {
+                    "title": "Website Localization",
+                    "text": "Adapt your website's content and user interface to resonate with local cultures and languages, boosting engagement and conversion rates.",
+                    "price": "$200",
+                    "per": "page"
+                },
+                {
+                    "title": "Market Research",
+                    "text": "Gain valuable insights into target markets, understanding preferences, and consumer behavior to fine-tune your business strategy.",
+                    "price": "$500",
+                    "per": "project"
+                },
+                {
+                    "title": "Brand Consulting",
+                    "text": "Craft a compelling global brand identity that transcends cultural boundaries and fosters brand loyalty worldwide.",
+                    "price": "$150",
+                    "per": "hour"
+                }
+            ]
+        },
+        {
+            "title": "Multilingual Content Creation",
+            "text_short": "Captivate audiences worldwide with expertly crafted, culturally relevant content in multiple languages.",
+            "text_long": "Our Multilingual Content Creation services are designed to help you communicate effectively with diverse audiences. Whether it's engaging blog posts, persuasive marketing materials, or captivating social media campaigns, our team of creative writers and cultural experts will craft compelling content that resonates with each target audience.",
+            "link": "/services/multilingual-content-creation",
+            "services": [
+                {
+                    "title": "Blog Writing",
+                    "text": "Professionally written blog posts that inform, entertain, and engage readers across different cultures.",
+                    "price": "$80",
+                    "per": "article"
+                },
+                {
+                    "title": "Marketing Collaterals",
+                    "text": "Create eye-catching brochures and marketing materials that entice and convert potential customers globally.",
+                    "price": "$250",
+                    "per": "brochure"
+                },
+                {
+                    "title": "Social Media Management",
+                    "text": "Cultivate a strong social media presence with content tailored for each platform and target audience.",
+                    "price": "$400",
+                    "per": "month"
+                }
+            ]
+        },
+        {
+            "title": "Interpretation and Communication",
+            "text_short": "Facilitate smooth cross-cultural communication with expert interpretation services.",
+            "text_long": "Our Interpretation and Communication services bridge language gaps, ensuring seamless interactions at international events, conferences, and business meetings. Our skilled interpreters possess a deep understanding of language nuances, facilitating effective communication and fostering fruitful collaborations.",
+            "link": "/services/interpretation-and-communication",
+            "services": [
+                {
+                    "title": "Simultaneous Interpretation",
+                    "text": "Highly skilled interpreters provide real-time translation during conferences and events, ensuring smooth communication.",
+                    "price": "$250",
+                    "per": "hour"
+                },
+                {
+                    "title": "Consecutive Interpretation",
+                    "text": "Skilled interpreters facilitate dialogues during business meetings and negotiations, allowing clear communication between parties.",
+                    "price": "$180",
+                    "per": "hour"
+                },
+                {
+                    "title": "Phone Interpretation",
+                    "text": "Instant access to over-the-phone interpreters for on-the-spot communication with international clients and partners.",
+                    "price": "$2.50",
+                    "per": "minute"
+                }
+            ]
+        },
+        {
+            "title": "Certified Document Translation",
+            "text_short": "Ensure accuracy and reliability with our certified translation services for legal and official documents.",
+            "text_long": "Our Certified Document Translation services are tailored to meet the highest standards for accuracy and authenticity. Our certified translators are well-versed in legal terminology and formatting requirements, providing reliable translations for documents required for immigration, legal proceedings, education, and more.",
+            "link": "/services/certified-document-translation",
+            "services": [
+                {
+                    "title": "Birth Certificate Translation",
+                    "text": "Accurate translations of birth certificates for legal and immigration purposes.",
+                    "price": "$60",
+                    "per": "document"
+                },
+                {
+                    "title": "Legal Contract Translation",
+                    "text": "Precise translations of legal agreements and contracts to ensure clarity and enforceability.",
+                    "price": "$0.15",
+                    "per": "word"
+                },
+                {
+                    "title": "Academic Transcript Translation",
+                    "text": "Official translations of academic records for international education applications.",
+                    "price": "$80",
+                    "per": "document"
+                }
+            ]
+        }
+    ],
+    "contacts": {
+        "phone": "+423 (732) 84 213",
+        "mail": "support@translation-international.ro",
+        "adress": "1321 D St, Lincoln, NE 68502, USA"
+    }
+}
