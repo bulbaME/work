@@ -3,31 +3,31 @@ import Image from "next/image";
 
 export function WidgetWhyChooseUs() {
     return <div className='max-w-7xl p-8 m-auto'>
-        <div className='text-c-m text-xl sm:text-3xl font-bold'>
+        <div className='text-c-m text-lg sm:text-2xl font-bold'>
             {"Your Global Voice, Our Precision"}
         </div>
-        <div className='text-black text-5xl sm:text-8xl font-extrabold my-2 mb-8'>
+        <div className='text-black text-4xl sm:text-6xl font-extrabold my-2 mb-8'>
             {"Why choose us?"}
         </div>
         <div className='flex my-12 sm:ml-10'>
             <div className='sm:p-6 sm:px-8 p-4'><Dot /></div>
             <div className=''>
-                <div className='font-bold text-4xl sm:text-6xl'>{"Excellence in Every Word"}</div>
-                <div className='font-semibold text-2xl sm:text-4xl mt-4 max-w-2xl'>{"Our team of skilled linguists, native speakers, and subject matter experts ensure accurate and culturally relevant translations that resonate with your target audience."}</div>
+                <div className='font-bold text-3xl sm:text-5xl'>{"Excellence in Every Word"}</div>
+                <div className='font-semibold text-xl sm:text-3xl mt-4 max-w-2xl'>{"Our team of skilled linguists, native speakers, and subject matter experts ensure accurate and culturally relevant translations that resonate with your target audience."}</div>
             </div>
         </div>
         <div className='flex my-12 sm:ml-10'>
             <div className='sm:p-6 sm:px-8 p-4'><Dot /></div>
             <div className=''>
-                <div className='font-bold text-4xl sm:text-6xl'>{"Timely and Dependable"}</div>
-                <div className='font-semibold text-2xl sm:text-4xl mt-4 max-w-2xl'>{"We understand the importance of timely delivery, and our efficient workflows allow us to meet your deadlines without compromising quality."}</div>
+                <div className='font-bold text-3xl sm:text-5xl'>{"Timely and Dependable"}</div>
+                <div className='font-semibold text-xl sm:text-3xl mt-4 max-w-2xl'>{"We understand the importance of timely delivery, and our efficient workflows allow us to meet your deadlines without compromising quality."}</div>
             </div>
         </div>
         <div className='flex my-12 sm:ml-10'>
             <div className='sm:p-6 sm:px-8 p-4'><Dot /></div>
             <div className=''>
-                <div className='font-bold text-4xl sm:text-6xl'>{"Your Trust, Our Priority"}</div>
-                <div className='font-semibold text-2xl sm:text-4xl mt-4 max-w-2xl'>{"Client confidentiality is paramount. Your sensitive documents are treated with the highest level of confidentiality and secured through our state-of-the-art systems."}</div>
+                <div className='font-bold text-3xl sm:text-5xl'>{"Your Trust, Our Priority"}</div>
+                <div className='font-semibold text-xl sm:text-3xl mt-4 max-w-2xl'>{"Client confidentiality is paramount. Your sensitive documents are treated with the highest level of confidentiality and secured through our state-of-the-art systems."}</div>
             </div>
         </div>
     </div>;

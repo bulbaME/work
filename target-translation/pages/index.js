@@ -7,10 +7,10 @@ import Link from "next/link";
 export default function X() {
     return <>
         <Header page={1} />
-        <div className='w-full background-banner flex'>
+        <div className='w-full background-banner flex min-h-screen'>
             <div className='max-w-7xl m-auto w-full'>
-                <div className='m-auto mt-[10rem] sm:ml-[2rem] p-8 sm:max-w-[58rem]'>
-                    <div className='text-white font-extrabold text-3xl sm:text-5xl underline decoration-g-l decoration-8'>
+                <div className='m-auto mt-[10rem] sm:ml-[2rem] p-8 sm:max-w-[60rem]'>
+                    <div className='text-white font-extrabold text-4xl sm:text-6xl decoration-8'>
                         {"Your Gateway to Global Communication"}
                     </div>
                     <div className='text-white font-semibold text-xl sm:text-3xl mt-16'>

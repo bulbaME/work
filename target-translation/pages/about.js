@@ -8,8 +8,8 @@ export default function X() {
         <Header page={4} />
         <div className='w-full background-about flex'>
             <div className='max-w-7xl m-auto w-full'>
-                <div className='m-auto mt-[10rem] text-center p-8 sm:max-w-[58rem]'>
-                    <div className='text-white font-extrabold text-3xl sm:text-5xl decoration-g-l decoration-8'>
+                <div className='m-auto mt-[5rem] text-center p-8 sm:max-w-[58rem]'>
+                    <div className='text-white font-extrabold text-2xl sm:text-4xl decoration-g-l decoration-8'>
                         {"About Target Translation"}
                     </div>
                     <div className='text-white font-semibold text-xl sm:text-3xl my-16'>
