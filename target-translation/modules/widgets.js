@@ -47,7 +47,7 @@ export function Cta(props) {
 
 export function CtaC(props) {
     return <div className='m-auto w-fit my-16 p-1 text-center'>
-        <div className='m-4 p-10 bg-white text-3xl sm:text-5xl font-bold hover:m-8 hover:p-6 hover:bg-c-m duration-300 ease-in-out'>
+        <div className='m-4 p-10 bg-white text-3xl sm:text-5xl font-bold hover:m-8 hover:p-6 hover:bg-c-l duration-300 ease-in-out'>
             <Link href={props.route}>{props.text}</Link>
         </div>
     </div>;
@@ -136,7 +136,7 @@ export function WidgetShortAbout() {
 }
 
 function Testimony(props) {
-    return <div className='flex m-auto max-w-5xl p-8 my-24'>
+    return <div className='flex m-auto max-w-5xl p-8 my-12 sm:my-24'>
         <div className='sm:w-5/6 w-4/5'>
             <div className='bg-white text-2xl sm:text-4xl font-semibold p-8 drop-shadow-xl'>
                 {props.text}
@@ -153,9 +153,76 @@ function Testimony(props) {
 
 export function WidgetTestimonies() {
     return <div className='max-w-7xl m-auto my-32'>
-        <div className='text-center text-4xl sm:text-6xl font-extrabold p-8'>{"Feedack from our clients"}</div>
+        <div className='text-center text-4xl sm:text-6xl font-extrabold p-8 -mb-16'>{"Feedack from our clients"}</div>
         <Testimony img='/img/13.png' name='John Carter, CEO' text="Global Language Solutions has been an invaluable partner in our international expansion. Their accurate translations and cultural insights have helped us connect with customers in new markets effortlessly." />
         <Testimony img='/img/14.png' name='Emily Anderson, Marketing Manager' text="The team at Global Language Solutions is prompt, professional, and provides outstanding service. They have consistently exceeded our expectations, and we highly recommend their language services." />
         <Testimony img='/img/15.png' name='Alex Chen, International Business Owner' text="We were impressed by the attention to detail and the commitment to quality demonstrated by Global Language Solutions. Their translations have been instrumental in our success in the global market." />
+    </div>;
+}
+
+export function ParagraphBanner(props) {
+    return <div className='max-w-7xl m-auto my-24'>
+        <div className='text-lg sm:text-2xl font-bold text-c-l p-8 pb-0'>
+            {props.slogan}
+        </div>
+        <div className='p-8 text-bold text-4xl sm:text-6xl font-extrabold pt-4'>
+            {props.title}
+        </div>
+        <div className={'w-full text-2xl sm:text-4xl font-semibold p-8 text-white bg-img-' + props.bg}>
+            {props.text}
+        </div>
+    </div>
+}
+
+export function ServicesCard(props) {
+    return <div className='m-auto bg-white drop-shadow-xl p-8 my-16'>
+        <div className='flex'>
+            <div className='w-1/3 sm:w-1/6 m-auto mx-0'>
+                <Image src={props.img} width={512} height={512} />
+            </div>
+            <div className='m-auto text-2xl sm:text-5xl font-extrabold text-left w-fit ml-8'>
+                {props.title}
+            </div>
+        </div>
+        <div className='text-2xl sm:text-4xl font-semibold my-12'>
+            {props.text}
+        </div>
+        <div className='w-fit m-auto'>
+            <Link href={props.link}>
+                <div className='flex pb-1 pt-4 hover:pb-5 hover:pt-0 duration-300'>
+                    <div className='text-3xl font-extrabold pr-2'>
+                        {"See more"}
+                    </div>
+                    <div className='m-auto'>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8">
+                        <path fillRule="evenodd" d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z" clipRule="evenodd" />
+                        <path fillRule="evenodd" d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z" clipRule="evenodd" />
+                        </svg>
+                    </div>
+                </div>
+            </Link>
+            <div className='w-full h-2 bg-g-l' />
+        </div>
+    </div>
+}
+
+export function ServiceCard(props) {
+    return <div className='max-w-lg m-auto py-16 p-4'>
+        <div className='text-center'>
+            <div className='font-extrabold text-3xl sm:text-5xl'>
+                {props.title}
+            </div>
+            <div className='flex w-fit m-auto my-4'>
+                <div className='text-2xl sm:text-4xl font-extrabold underline decoration-c-l m-auto mx-0'>{props.price}</div>
+                <div className='mx-2 text-xl m-auto font-bold'>/</div>
+                <div className='text-lg sm:text-2xl m-auto font-bold mx-0 w-fit text-left'>{props.per}</div>
+            </div>
+        </div>
+        <div className='bg-white drop-shadow-xl p-4 mt-8 mb-4 text-xl sm:text-3xl font-semibold text-center'>
+            {props.text}
+        </div>
+        <div className='w-fit m-auto p-3 text-3xl font-extrabold text-c-m hover:text-g-l duration-300'>
+            <Link href='/contact'>Select</Link>
+        </div>
     </div>;
 }

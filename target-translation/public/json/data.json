@@ -2,8 +2,8 @@
     "services": [
         {
             "title": "Global Reach Solutions",
-            "text": "Expand your global reach with our website localization services, multilingual social media management, international SEO optimization, and virtual multilingual customer support.",
-            "link": "global-reach-solutions",
+            "text": "Expand your business's global presence by localizing your website content to resonate with diverse international audiences. Our expert linguists will adapt your website's text, images, and user interface to match the cultural nuances of each target market, ensuring a seamless user experience and increased engagement.",
+            "link": "/services/global-reach-solutions",
             "services": [
                 {
                     "title": "Website Localization",
@@ -15,7 +15,7 @@
                     "title": "Multilingual Social Media Management",
                     "text": "Enhance your social media reach by entrusting our team to manage your accounts in multiple languages. We'll create culturally-tailored posts, respond to comments and messages, and monitor trends to boost your brand's visibility worldwide.",
                     "price": "$500",
-                    "per": "month (up to 3 social media platforms)"
+                    "per": "month"
                 },
                 {
                     "title": "International SEO Optimization",
@@ -33,8 +33,8 @@
         },
         {
             "title": "Cultural Consulting and Transcreation",
-            "text": "Rely on our certified translation services for legal documents, immigration papers, certificates, and official business records.",
-            "link": "cultural-consulting-and-transcreation",
+            "text": "Unlock new markets and tailor your products/services to specific cultural preferences with our in-depth cultural market research. Gain valuable insights into consumer behavior, traditions, and local trends to maximize your business potential.",
+            "link": "/services/cultural-consulting-and-transcreation",
             "services": [
                 {
                     "title": "Cultural Market Research",
@@ -64,8 +64,8 @@
         },
         {
             "title": "Multilingual Content Creation",
-            "text": "Engage audiences worldwide with creative marketing content, multimedia localization, and tailored blog posts that resonate with diverse cultures.",
-            "link": "multilingual-content-creation",
+            "text": "Captivate your global audience with compelling and culturally relevant content. Our creative team of writers and designers will craft engaging marketing materials, blog posts, and multimedia content that resonates with your target markets worldwide.",
+            "link": "/services/multilingual-content-creation",
             "services": [
                 {
                     "title": "Multilingual Copywriting",

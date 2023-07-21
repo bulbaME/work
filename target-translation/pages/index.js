@@ -1,4 +1,5 @@
 import Header from "@/modules/header";
+import Footer from "@/modules/footer";
 import { Cta, Paragraph, WidgetShortAbout, WidgetTestimonies, WidgetWhyChooseUs } from "@/modules/widgets";
 
 import Link from "next/link";
@@ -23,9 +24,10 @@ export default function X() {
         </div>
         <WidgetWhyChooseUs />
         <Cta route='/contact' text='Start Your Global Journey' />
+        <WidgetShortAbout />
         <Paragraph img='/img/7.jpg' slogan="Unlock Your Global Potential" title="Your Global Reach Starts Here" text="Whether you're a multinational corporation looking to expand your global presence or a small business venturing into new international markets, our comprehensive suite of language services is designed to help you succeed. From website localization and multilingual social media management to certified document translation and captivating content creation, we have the expertise to deliver solutions that resonate with diverse audiences worldwide." />
         <Paragraph img='/img/9.jpg' slogan="Precision Beyond Borders" title="Excellence in Every Word" text="At Global Language Solutions, we understand the power of language in conveying your message accurately and effectively. Our team of native-speaking translators and language specialists ensures that your content is not only linguistically precise but also culturally nuanced, making it relatable and impactful to your target audience. We are committed to maintaining the integrity of your message while adapting it seamlessly to different linguistic and cultural contexts." />
-        <WidgetShortAbout />
         <WidgetTestimonies />
+        <Footer />
     </>;
 }
