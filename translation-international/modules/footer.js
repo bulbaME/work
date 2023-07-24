@@ -10,7 +10,7 @@ export default function Footer() {
                 <Link href='/services'>Services</Link> <br />
                 <Link href='/about'>About</Link>
             </div>
-            <div className='m-auto flex-wrap text-center'>
+            <div className='m-auto flex-wrap w-fit'>
                 <Link className='m-auto' href='/policy'>Policy</Link> <br />
                 <Link className='m-auto' href='terms-&-conditions'>Terms & Conditions</Link>
             </div>

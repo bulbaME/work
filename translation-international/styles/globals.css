@@ -11,3 +11,7 @@
 .shadow-1 {
 	box-shadow: 1rem 1rem 0px 0px #FFDE7A;
 }
+
+.h-c-1 {
+	height: calc(100vh - 19.5rem);
+}

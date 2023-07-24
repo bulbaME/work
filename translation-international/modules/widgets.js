@@ -88,3 +88,93 @@ export function WidgetTestimonies() {
         </div>
     </div>;
 }
+
+function FeaturesCard(props) {
+    return <div className='p-4 m-auto max-w-md py-8'>
+        <div className='bg-y-l p-4'>
+            <div className='flex w-fit my-auto'>
+                <div className='my-auto w-1/5 flex'>
+                    <div className='m-auto'>
+                    {props.img}
+                    </div>
+                </div>
+                <div className='text-3xl font-bold w-4/5 ml-2'>
+                    {props.title}
+                </div>
+            </div>
+            <div className='text-xl font-semibold text-y-d text-left mt-4'>
+                {props.text}
+            </div>
+        </div>
+    </div>
+}
+
+export function WidgetFeatures() {
+    return <div className='max-w-6xl m-auto my-36'>
+        <div className='text-center text-3xl font-bold mb-16'>
+            You should choose us
+        </div>
+        <div className='flex flex-wrap'>
+            <FeaturesCard title='Cultural Sensitivity' text="We understand the importance of cultural nuances and ensure that your message is accurately conveyed with respect to local customs and traditions." img={
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-10 h-10">
+                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-11-4.69v.447a3.5 3.5 0 001.025 2.475L8.293 10 8 10.293a1 1 0 000 1.414l1.06 1.06a1.5 1.5 0 01.44 1.061v.363a1 1 0 00.553.894l.276.139a1 1 0 001.342-.448l1.454-2.908a1.5 1.5 0 00-.281-1.731l-.772-.772a1 1 0 00-1.023-.242l-.384.128a.5.5 0 01-.606-.25l-.296-.592a.481.481 0 01.646-.646l.262.131a1 1 0 00.447.106h.188a1 1 0 00.949-1.316l-.068-.204a.5.5 0 01.149-.538l1.44-1.234A6.492 6.492 0 0116.5 10z" clipRule="evenodd" />
+                </svg>
+            } />
+            <FeaturesCard title='Precision and Accuracy' text="Our team of expert linguists delivers accurate translations that maintain the original intent and meaning of your content." img={
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-10 h-10">
+                <path d="M2.695 14.763l-1.262 3.154a.5.5 0 00.65.65l3.155-1.262a4 4 0 001.343-.885L17.5 5.5a2.121 2.121 0 00-3-3L3.58 13.42a4 4 0 00-.885 1.343z" />
+                </svg>              
+            } />
+            <FeaturesCard title='Customer-Centric Approach' text="We prioritize our clients' needs, offering personalized solutions and exceptional customer service." img={
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-10 h-10">
+                <path d="M10 9a3 3 0 100-6 3 3 0 000 6zM6 8a2 2 0 11-4 0 2 2 0 014 0zM1.49 15.326a.78.78 0 01-.358-.442 3 3 0 014.308-3.516 6.484 6.484 0 00-1.905 3.959c-.023.222-.014.442.025.654a4.97 4.97 0 01-2.07-.655zM16.44 15.98a4.97 4.97 0 002.07-.654.78.78 0 00.357-.442 3 3 0 00-4.308-3.517 6.484 6.484 0 011.907 3.96 2.32 2.32 0 01-.026.654zM18 8a2 2 0 11-4 0 2 2 0 014 0zM5.304 16.19a.844.844 0 01-.277-.71 5 5 0 019.947 0 .843.843 0 01-.277.71A6.975 6.975 0 0110 18a6.974 6.974 0 01-4.696-1.81z" />
+                </svg>
+            } />
+            <FeaturesCard title='Timely Delivery' text="We value your time and ensure prompt delivery of all language solutions, even for urgent projects." img={
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-10 h-10">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.75-13a.75.75 0 00-1.5 0v5c0 .414.336.75.75.75h4a.75.75 0 000-1.5h-3.25V5z" clipRule="evenodd" />
+                </svg>
+            }/>
+        </div>
+    </div>
+}
+
+export function ServicesCard(props) {
+    return <div className='my-24 border-2 border-y-l p-4'>
+        <div className='text-3xl font-bold '>
+            {props.title}
+        </div>
+        <div className='text-xl font-semibold mt-4'>
+            {props.text}
+        </div>
+        <div className='m-auto p-3 w-fit text-2xl font-bold mt-8 bg-y-l hover:bg-b-l duration-300'>
+            <Link href={props.link}>See more</Link>
+        </div>
+    </div>
+}
+
+export function ServiceCard(props) {
+    return <div className='p-4 max-w-[24rem] m-auto'>
+        <div className='bg-y-l p-4'>
+            <div className='text-3xl font-bold text-center'>
+                {props.title}
+            </div>
+            <div className='flex w-fit m-auto my-4 relative'>
+                <div className='text-2xl font-bold m-auto'>
+                    {props.price}
+                </div>
+                <div className='mx-2 m-auto'>/</div>
+                <div className='text-xl font-semibold m-auto'>
+                    {props.per}
+                </div>
+                <div className='bg-b-l w-full h-[0.1rem] mt-8 absolute'/>
+            </div>
+            <div className='text-xl font-serif text-y-d text-center'>
+                {props.text}
+            </div>
+            <div className='mt-8 p-3 w-fit m-auto hover:bg-b-l duration-300 text-2xl font-bold'>
+                <Link href='/contact'>Select</Link>
+            </div>
+        </div>
+    </div>;
+}

@@ -1,5 +1,5 @@
 import Header from "@/modules/header";
-import { KeyFeatureCard, Paragraph, WidgetServicesSmall, WidgetTestimonies } from "@/modules/widgets";
+import { KeyFeatureCard, Paragraph, WidgetFeatures, WidgetServicesSmall, WidgetTestimonies } from "@/modules/widgets";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "@/modules/footer";
@@ -58,6 +58,15 @@ export default function X() {
                         <Link href='/contact'>Reach out to us now</Link>
                     </div>
                 </div>
+            </div>
+        </div>
+        <WidgetFeatures />
+        <div className='my-36 text-center max-w-6xl m-auto p-4 text-3xl font-bold'>
+            <div>
+                {"Have questions or need more information?"}
+            </div>
+            <div className='underline decoration-y-l decoration-4 hover:decoration-b-l duration-300'>
+                <Link href='/contact'>{"Reach out to our friendly team today!"}</Link>
             </div>
         </div>
         <WidgetTestimonies />
