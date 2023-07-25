@@ -54,7 +54,7 @@ export default function Main() {
                     <div className='m-2 mr-0 text-xl'>
                         Your name: 
                     </div>
-                    <input required className='bg-zinc-700 rounded-md p-2 mr-2 w-3/5 m-auto' value={name} onChange={(e) => Setname(e.target.value) + console.log(e)} />
+                    <input required className='bg-zinc-700 rounded-md p-2 mr-2 w-3/5 m-auto' value={name} onChange={(e) => Setname(e.target.value)} />
                 </label>
                 <label className='m-4 flex'>
                     <div className='m-2 mr-0 text-xl'>
