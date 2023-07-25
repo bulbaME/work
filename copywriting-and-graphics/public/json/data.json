@@ -1,0 +1,88 @@
+{
+    "services": [
+        {
+            "title": "Storytelling Mastery",
+            "text_short": "Ignite emotions and forge connections with compelling narratives.",
+            "text_long": "Harness the art of storytelling to captivate your audience and elevate your brand's communication. Our 'Storytelling Mastery' service theme is designed to create compelling narratives that resonate with your target audience, leaving a lasting impact. Our expert copywriters craft stories that evoke emotions, establish brand identity, and drive meaningful connections with your readers. Whether it's crafting engaging blog posts, thought-provoking articles, or captivating website content, we'll help you tell your brand's story like never before.",
+            "link": "/services/storytelling-mastery",
+            "services": [
+                {
+                    "title": "Brand Storytelling Package",
+                    "text": "Craft a powerful brand story that conveys your brand's essence, history, and values. Includes website content, About Us page, and brand messaging guidelines.",
+                    "price": "$799",
+                    "per": "package"
+                },
+                {
+                    "title": "Engaging Blog Posts",
+                    "text": "Tell captivating stories through blog posts that entertain, educate, and engage your audience. Perfect for building a loyal readership and driving website traffic.",
+                    "price": "$89",
+                    "per": "blog post (500 words)"
+                },
+                {
+                    "title": "Thought Leadership Articles",
+                    "text": "Establish authority in your industry with insightful thought leadership articles. Position your brand as a leader and gain credibility among your target audience.",
+                    "price": "$149",
+                    "per": "article (750 words)"
+                }
+            ]
+        },
+        {
+            "title": "Conversion-Driven Copy",
+            "text_short": "Boost conversions and drive action with persuasive content.",
+            "text_long": "Drive action and achieve your business goals with our 'Conversion-Driven Copy' service theme. Our expert copywriters specialize in creating persuasive content that sparks interest, compels your audience to take action, and drives conversions. From compelling sales copy to attention-grabbing product descriptions, we craft messages that motivate your readers to become loyal customers. Elevate your brand's communication and boost your sales with our conversion-focused content.",
+            "link": "/services/conversion-driven-copy",
+            "services": [
+                {
+                    "title": "Sales Copy Package",
+                    "text": "Persuasive copy that drives sales and conversions. Includes sales pages, product descriptions, and compelling calls-to-action.",
+                    "price": "$499",
+                    "per": "package"
+                },
+                {
+                    "title": "Conversion-Optimized Email Campaign",
+                    "text": "Turn leads into customers with our persuasive email series. Crafted to drive engagement and conversions through strategic messaging.",
+                    "price": "$299",
+                    "per": "series of 5 emails"
+                },
+                {
+                    "title": "Landing Page Copy",
+                    "text": "Drive targeted traffic and maximize conversions with our high-converting landing page copy. Crafted to engage visitors and compel action.",
+                    "price": "$199",
+                    "per": "landing page"
+                }
+            ]
+        },
+        {
+            "title": "SEO Content Optimization",
+            "text_short": "Boost online visibility with search engine-friendly content.",
+            "text_long": "Maximize your online visibility and rank higher in search engines with our 'SEO Content Optimization' service theme. Our expert copywriters know how to incorporate relevant keywords and best practices to make your content search engine-friendly. Whether it's blog posts, website pages, or product descriptions, our SEO optimization ensures that your content attracts organic traffic and reaches a wider audience.",
+            "link": "/services/seo-content-optimization",
+            "services": [
+                {
+                    "title": "On-Page SEO Package",
+                    "text": "Optimize your website pages with relevant keywords, meta tags, and SEO best practices to improve search engine rankings.",
+                    "price": "$299",
+                    "per": "up to 10 pages"
+                },
+                {
+                    "title": "Blog SEO Optimization",
+                    "text": "Boost organic traffic to your blog with SEO-optimized content. Increase your blog's visibility and reach a wider audience.",
+                    "price": "$99",
+                    "per": "blog post (500 words)"
+                },
+                {
+                    "title": "Product Description SEO",
+                    "text": "Improve product visibility and attract more customers with SEO-optimized product descriptions. Rank higher in search results and drive conversions.",
+                    "price": "$79",
+                    "per": "product (250 words)"
+                }
+            ]
+        }
+    ],
+
+    "contacts": {
+        "phone": "+67 (421) 15 632",
+        "mail": "support@copywritingandgraphics.com",
+        "adress": "Phoenix, AZ 85003, USA"
+    }
+}
