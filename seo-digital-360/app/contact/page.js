@@ -54,19 +54,19 @@ export default function Main() {
                     <div className='m-2 mr-0 text-xl'>
                         Your name: 
                     </div>
-                    <input required className='bg-zinc-700 rounded-md p-2 mr-2 w-3/5 m-auto' value={name} onChange={(e) => Setname(e.value)} />
+                    <input required className='bg-zinc-700 rounded-md p-2 mr-2 w-3/5 m-auto' value={name} onChange={(e) => Setname(e.target.value) + console.log(e)} />
                 </label>
                 <label className='m-4 flex'>
                     <div className='m-2 mr-0 text-xl'>
                         Your E-mail:
                     </div>
-                    <input required className='bg-zinc-700 rounded-md p-2 mr-2 w-3/5 m-auto' value={mail} onChange={(e) => Setmail(e.value)} />
+                    <input required className='bg-zinc-700 rounded-md p-2 mr-2 w-3/5 m-auto' value={mail} onChange={(e) => Setmail(e.target.value)} />
                 </label>
                 <label className='m-4 flex'>
                     <div className='m-2 mr-0 w-1/3 text-xl'>
                         Describe your needs:
                     </div>
-                    <textarea className='bg-zinc-700 rounded-md max-h-36 mr-2 p-2 w-3/5 m-auto resize-none' value={text} onChange={(e) => Settext(e.value)} />
+                    <textarea className='bg-zinc-700 rounded-md max-h-36 mr-2 p-2 w-3/5 m-auto resize-none' value={text} onChange={(e) => Settext(e.target.value)} />
                 </label>
                 <Listbox value={product} onChange={Setproduct} >
                     <Listbox.Button className='cursor-pointer m-6 mt-2 p-2 bg-zinc-700 rounded-md hover:drop-shadow-xl hover:mt-1 hover:mb-7 hover:bg-v-l duration-300'>{product}</Listbox.Button>
