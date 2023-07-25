@@ -35,3 +35,7 @@
 .bg-5 {
     background-image: url('/svg/bg5.svg');
 }
+
+.h-c-1 {
+    height: calc(100vh - 276px);
+}

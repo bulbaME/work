@@ -229,7 +229,42 @@ export function ServicesSmallW() {
 }
 
 export function ServicesC(props) {
-    return <div className='flex'>
-        <div><Img src={props.img} /></div>
+    return <div className='flex p-4 py-16 flex-wrap'>
+        <div className='font-bold mb-4 w-full text-center text-white sm:text-5xl text-3xl'>
+                {props.title}
+        </div>
+        <div className='sm:w-1/3 m-auto py-4'><Img src={props.img} /></div>
+        <div className='sm:w-2/3 sm:p-4 sm:pl-8 m-auto'>
+            <div className='text sm:text-lg font-medium text-white'>
+                {props.text}
+            </div>
+            <div className='w-fit m-auto mt-8 mb-0 p-3 px-4 bg-r-1 text-white text-2xl font-bold rounded-full hover:mt-4 hover:mb-4 duration-300'>
+                <Link href={props.link} className='drop-shadow-xl'>See more</Link>
+            </div>
+        </div>
+    </div>;
+}
+
+export function ServiceC(props) {
+    return <div className='p-4 m-auto'>
+        <div className='p-4 bg-2 rounded-[2rem]'>
+            <div className='text-center text-white font-bold sm:text-4xl text-2xl'>
+                {props.title}
+            </div>
+            <div className='flex w-fit m-auto my-4'>
+                <div className='sm:text-3xl text-xl font-bold text-white m-auto'>{props.price}</div>
+                <div className='sm:text-lg font-bold text-white mx-2 m-auto'>/</div>
+                <div className='sm:text-lg font-semibold text-white m-auto'>{props.per}</div>
+            </div>
+            <div className='w-3/5 bg-white h-px m-auto mb-4' />
+            <div className='text-center text-white sm:text-lg font-medium '>
+                {props.text}
+            </div>
+            <div className=''>
+                <div className='w-fit m-auto bg-white mt-12 mb-4 p-3 px-4 rounded-full text-r-1 font-bold text-xl hover:mt-8 hover:mb-8 duration-300 drop-shadow-xl'>
+                    <Link href='/contact#contact-us'>Select</Link>
+                </div>
+            </div>
+        </div>
     </div>;
 }
