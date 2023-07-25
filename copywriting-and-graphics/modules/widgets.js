@@ -194,7 +194,7 @@ export function TestimonyW() {
 }
 
 function ServicesSmallC(props) {
-    return <div className='p-4 m-auto py-[3rem] pb-[1rem] hover:pt-[0.2rem] hover:pb-[3.8rem] duration-300 relative my-16'>
+    return <div className='p-4 m-auto py-[3rem] pb-[1rem] hover:pt-[0.2rem] hover:pb-[3.8rem] duration-300 relative my-4'>
         <a href={props.link}>
             <div className='rounded-[2rem] bg-white p-4 drop-shadow-xl cursor-pointer text-r-1'>
                 <div className='sm:text-4xl text-2xl font-bold text-center drop-shadow-lg'>
