@@ -1,0 +1,161 @@
+{
+    "services": [
+        {
+            "title": "Logo Design",
+            "text_short": "Craft a memorable brand identity",
+            "text_long": "Your brand's identity starts with a powerful logo that captures the essence of your business. Our Logo Design service is crafted to create an iconic mark that not only reflects your brand values but also leaves a lasting impression on your target audience. Our talented team of designers will work closely with you to understand your brand's personality and objectives, ensuring that the final logo aligns perfectly with your vision. Whether you need a modern, minimalistic logo or an elaborate emblem, DesignsRiver is here to make your brand stand out.",
+            "link": "/services/logo-design",
+            "services": [
+                {
+                    "title": "Logo Concept Development",
+                    "text": "Create multiple logo concepts to explore different design directions.",
+                    "price": "$250",
+                    "per": "concept"
+                },
+                {
+                    "title": "Custom Logo Design",
+                    "text": "Craft a unique and impactful logo that represents your brand.",
+                    "price": "$400",
+                    "per": "logo"
+                },
+                {
+                    "title": "Logo Redesign",
+                    "text": "Give your existing logo a fresh and updated look.",
+                    "price": "$300",
+                    "per": "logo"
+                },
+                {
+                    "title": "Mascot or Character Logo",
+                    "text": "Create a playful and memorable mascot or character logo for your brand.",
+                    "price": "$500",
+                    "per": "logo"
+                },
+                {
+                    "title": "Brand Guidelines & Style Guide",
+                    "text": "Define guidelines for logo usage, colors, and typography.",
+                    "price": "$150",
+                    "per": "guide"
+                }
+            ]
+        },
+        {
+            "title": "Website Development",
+            "text_short": "Your gateway to the digital world",
+            "text_long": "In today's digital landscape, a well-designed and functional website is crucial for business success. Our Website Development service offers a comprehensive solution to establish your online presence. Our expert team of developers will craft a user-friendly and visually appealing website that not only represents your brand but also drives conversions. From responsive layouts to seamless navigation, we ensure a flawless browsing experience across all devices. With our focus on security, performance, and scalability, your website will be ready to take your business to new heights in the digital realm.",
+            "link": "/services/website-development",
+            "services": [
+                {
+                    "title": "Custom Website Development",
+                    "text": "Develop a unique website tailored to your brand's requirements and functionalities.",
+                    "price": "$1500",
+                    "per": "project"
+                },
+                {
+                    "title": "E-commerce Website Development",
+                    "text": "Build an online store that provides seamless shopping experiences for your customers.",
+                    "price": "$2000",
+                    "per": "project"
+                },
+                {
+                    "title": "Responsive Web Design",
+                    "text": "Ensure your website adapts beautifully to all devices for a smooth user experience.",
+                    "price": "$500",
+                    "per": "website"
+                },
+                {
+                    "title": "Content Management System (CMS) Integration",
+                    "text": "Incorporate a user-friendly CMS to manage and update your website content easily.",
+                    "price": "$300",
+                    "per": "integration"
+                },
+                {
+                    "title": "Website Maintenance and Support",
+                    "text": "Keep your website up-to-date and secure with our ongoing maintenance and support.",
+                    "price": "$200",
+                    "per": "month"
+                }
+            ]
+        },
+        {
+            "title": "Branding & Visual Identity",
+            "text_short": "Build a cohesive brand image",
+            "text_long": "A strong and cohesive brand image is essential for creating a lasting impact. Our Branding & Visual Identity service is designed to help you establish a consistent and recognizable brand identity across all platforms. From logo design and color palettes to typography and marketing collateral, our team of designers will create a cohesive visual language that communicates your brand's story effectively. Let DesignsRiver be the driving force behind your brand's success, leaving a memorable impression on your audience.",
+            "link": "/services/branding-visual-identity",
+            "services": [
+                {
+                    "title": "Logo Design",
+                    "text": "Create a powerful logo that reflects your brand's values and personality.",
+                    "price": "$500",
+                    "per": "logo"
+                },
+                {
+                    "title": "Brand Colors and Palette",
+                    "text": "Define a harmonious color palette that represents your brand consistently.",
+                    "price": "$200",
+                    "per": "palette"
+                },
+                {
+                    "title": "Typography Selection",
+                    "text": "Choose typography that aligns with your brand's personality and tone.",
+                    "price": "$150",
+                    "per": "selection"
+                },
+                {
+                    "title": "Visual Brand Guidelines",
+                    "text": "Create guidelines for logo usage, color applications, and typography.",
+                    "price": "$300",
+                    "per": "guide"
+                },
+                {
+                    "title": "Business Card and Stationery Design",
+                    "text": "Craft professional business cards and stationery that elevate your brand image.",
+                    "price": "$250",
+                    "per": "set"
+                }
+            ]
+        },
+        {
+            "title": "Graphic Design",
+            "text_short": "Make an impact with compelling visuals",
+            "text_long": "Visual communication is the key to making an impact. Our Graphic Design service is your gateway to captivating designs that elevate your brand identity. Whether you need marketing materials, branding collateral, or digital graphics, our talented designers are here to bring your ideas to life. We start by understanding your brand's personality, target audience, and design preferences. Armed with this knowledge, we'll create custom designs that align perfectly with your brand image. Our goal is to deliver designs that resonate with your audience and leave a lasting impression.",
+            "link": "/services/graphic-design",
+            "services": [
+                {
+                    "title": "Logo Design",
+                    "text": "Create a memorable logo that represents your brand's identity.",
+                    "price": "$500",
+                    "per": "logo"
+                },
+                {
+                    "title": "Business Card Design",
+                    "text": "Craft professional business cards that make a lasting impression.",
+                    "price": "$150",
+                    "per": "design"
+                },
+                {
+                    "title": "Brochure Design",
+                    "text": "Design informative and visually appealing brochures to showcase your offerings.",
+                    "price": "$300",
+                    "per": "single-sided"
+                },
+                {
+                    "title": "Poster and Banner Design",
+                    "text": "Create eye-catching posters and banners for events and promotions.",
+                    "price": "$200",
+                    "per": "design"
+                },
+                {
+                    "title": "Social Media Graphics",
+                    "text": "Design engaging graphics for your social media platforms.",
+                    "price": "$100",
+                    "per": "platform"
+                }
+            ]
+        }
+    ],
+    "contacts": {
+        "phone": "+52 (421) 23 512",
+        "mail": "support@designriver.com",
+        "adress": "2463-2401 E Theresa Ave, Las Vegas, NV 89101, USA"
+    }
+}
