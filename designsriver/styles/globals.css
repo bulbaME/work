@@ -9,7 +9,7 @@
 }
 
 .header-title {
-    background: linear-gradient(90deg, #1ED99E 5%, #1EADD9 95%);
+    background: linear-gradient(90deg, #238EF8 5%, #1EADD9 95%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -25,7 +25,7 @@
 }
 
 .bg-2 {
-    background-image: url('/svg/bg2.svg');
+    background-image: url('/svg/bg1.svg');
 }
 
 .h-c-1 {

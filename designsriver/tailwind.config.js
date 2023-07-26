@@ -11,8 +11,8 @@ module.exports = {
                 'b': '#238EF8',
                 'b-c': '#1EADD9',
                 'c': '#2EF0EB',
-                'c-g': '#1ED99E',
-                'g': '#23F878'
+                'c-g': '#1EADD9',
+                'g': '#1EADD9'
             }
         },
         transitionProperty: {
