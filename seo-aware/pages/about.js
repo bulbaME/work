@@ -21,7 +21,7 @@ export default function X() {
         <WServicesSmall />
         <div className='max-w-7xl m-auto p-4 flex flex-wrap my-16'>
             <div className='md:w-1/2 text-white font-bold sm:text-5xl text-3xl m-auto'>
-                Unlock Your Digital Potential - Let's Create Magic Together!
+                {"Unlock Your Digital Potential - Let's Create Magic Together!"}
             </div>
             <div className='md:w-1/2 m-auto py-8 hover:pt-4 hover:pb-12 duration-300'>
                 <div className='text-white font-bold text-2xl w-fit p-3 px-4 bg-g-m rounded-full m-auto'>
