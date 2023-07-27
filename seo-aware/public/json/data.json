@@ -1,0 +1,87 @@
+{
+    "services": [
+        {
+            "title": "Optimized for Success",
+            "text_short": "Experience the power of search engine optimization with our \"Optimized for Success\" theme.",
+            "text_long": "The \"Optimized for Success\" theme is designed to take your online presence to new heights. Our team of SEO experts will work tirelessly to improve your website's search engine rankings, increase organic traffic, and drive conversions. Get ready to experience unparalleled growth and achieve remarkable success in the digital world.",
+            "link": "/services/optimized-for-success",
+            "services": [
+                {
+                    "title": "SEO Audit and Strategy",
+                    "text": "Our expert team will conduct a thorough SEO audit of your website, identifying strengths, weaknesses, and opportunities. We'll then create a tailored SEO strategy to boost your website's performance.",
+                    "price": "$300",
+                    "per": "comprehensive analysis"
+                },
+                {
+                    "title": "Keyword Research and Optimization",
+                    "text": "Uncover the most valuable keywords in your niche with our in-depth research, and optimize your content to rank higher in relevant searches.",
+                    "price": "$150",
+                    "per": "targeted keyword"
+                },
+                {
+                    "title": "Link Building",
+                    "text": "Enhance your website's authority and credibility with our strategic link building services, earning valuable backlinks from reputable sources.",
+                    "price": "$200",
+                    "per": "high-quality backlink"
+                }
+            ]
+        },
+        {
+            "title": "Local SEO Domination",
+            "text_short": "Conquer your local market and attract nearby customers with our \"Local SEO Domination\" theme.",
+            "text_long": "The \"Local SEO Domination\" theme is perfect for businesses targeting local audiences. Our SEO wizards will optimize your online presence, ensuring your business appears in local search results, Google Maps, and directories. Get ready to become the go-to choice for customers in your area.",
+            "link": "/services/local-seo-domination",
+            "services": [
+                {
+                    "title": "Local Keyword Targeting",
+                    "text": "We'll identify location-specific keywords that your potential customers are using to find businesses like yours, and then optimize your website for local searches.",
+                    "price": "$120",
+                    "per": "optimized keyword"
+                },
+                {
+                    "title": "Google My Business (GMB) Optimization",
+                    "text": "Maximize your visibility on Google Maps and local search results by optimizing your Google My Business listing with accurate information and engaging content.",
+                    "price": "$250",
+                    "per": "listing"
+                },
+                {
+                    "title": "Local Citations and NAP Consistency",
+                    "text": "Establish your business's credibility with consistent Name, Address, and Phone (NAP) information across various online directories and platforms.",
+                    "price": "$100",
+                    "per": "citation building"
+                }
+            ]
+        },
+        {
+            "title": "Elevate Your E-Commerce",
+            "text_short": "Boost your e-commerce store's performance with our \"Elevate Your E-Commerce\" theme.",
+            "text_long": "The \"Elevate Your E-Commerce\" theme is ideal for online businesses looking to maximize their online sales. Our SEO gurus will optimize your product pages, improve site structure, and implement conversion-focused strategies to attract and retain customers, driving increased revenue.",
+            "link": "/services/elevate-your-e-commerce",
+            "services": [
+                {
+                    "title": "Product Page Optimization",
+                    "text": "We'll optimize your product descriptions, titles, and metadata, ensuring your e-commerce store ranks higher for relevant product searches.",
+                    "price": "$80",
+                    "per": "product page"
+                },
+                {
+                    "title": "Site Speed and Performance",
+                    "text": "Improve user experience and search engine rankings by enhancing your website's loading speed and overall performance.",
+                    "price": "$150",
+                    "per": "website optimization"
+                },
+                {
+                    "title": "Conversion Rate Optimization (CRO)",
+                    "text": "Increase your website's conversion rate with our CRO services, focusing on site layout, calls-to-action, and user experience improvements.",
+                    "price": "$300",
+                    "per": "analysis and strategy"
+                }
+            ]
+        }
+    ],
+    "contacts": {
+        "phone": "+53 (134) 215-091",
+        "mail": "support@seo-aware.com",
+        "adress": "1109-1035 S 4th E, Salt Lake City, UT 84111, USA"
+    }
+}
