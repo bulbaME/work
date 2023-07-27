@@ -1,0 +1,157 @@
+{
+    "services":[
+        {
+            "title":"Legal Language Experts",
+            "text_short":"Entrust your legal documents and contracts to our expert linguists, ensuring accurate translations and adherence to legal terminology across different jurisdictions.",
+            "text_long":"Our Legal Language Experts specialize in providing precise and reliable translations for all your legal needs. We understand the critical importance of maintaining the integrity of legal content while navigating the complexities of different legal systems. With years of experience and a deep understanding of legal terminology, our team guarantees top-notch translations that stand up to the scrutiny of courts and legal professionals.",
+            "link":"legal-language-experts",
+            "services":[
+                {
+                    "title":"Translation of Legal Contracts and Agreements",
+                    "text":"Ensure the accuracy and legal validity of your contracts and agreements with our expert translation service. Our legal language specialists meticulously translate the documents, preserving the intent and integrity of the original content while adhering to the specific legal terminologies required in different jurisdictions.",
+                    "price":"$50",
+                    "per":"page"
+                },
+                {
+                    "title":"Certified Translation of Legal Documents",
+                    "text":"For official documents such as birth certificates, marriage certificates, and other legal papers, our certified translation service ensures the translations are accurate, complete, and legally accepted. Each translated document comes with a certification stamp, affirming its authenticity.",
+                    "price":"$40",
+                    "per":"document"
+                },
+                {
+                    "title":"Court Transcription and Translation",
+                    "text":"Trust our qualified professionals to handle transcription and translation services for court proceedings. Our team is experienced in accurately transcribing legal hearings and providing translations that maintain the legal context and integrity of the spoken words.",
+                    "price":"$80",
+                    "per":"hour"
+                },
+                {
+                    "title":"Legal Correspondence Translation",
+                    "text":"Communicate effectively with clients, partners, or legal authorities across language barriers. Our legal correspondence translation service guarantees clear and culturally sensitive translations for all your business and legal communications.",
+                    "price":"$0.12",
+                    "per":"word"
+                },
+                {
+                    "title":"Patent and Trademark Document Translation",
+                    "text":"Safeguard your intellectual property rights globally with our precise translation of patent and trademark documents. Our experts ensure that all technical details and legal terms are accurately conveyed, protecting your innovations in international markets.",
+                    "price":"$60",
+                    "per":"page"
+                }
+            ]
+        },
+        {
+            "title":"Global Business Solutions",
+            "text_short":"Expand your business globally with our comprehensive translation services, tailored to meet the unique needs of international businesses.",
+            "text_long":"Our Global Business Solutions team is dedicated to helping companies break down language barriers and reach new markets worldwide. Whether you need multilingual marketing materials, localized websites, or clear business communication with international partners, our experts ensure that your message is conveyed effectively and resonates with diverse audiences.",
+            "link":"global-business-solutions",
+            "services":[
+                {
+                    "title":"Website Localization",
+                    "text":"Expand your online presence globally with our website localization service. We adapt your website content to resonate with local audiences, considering linguistic nuances and cultural sensitivities to maximize user engagement and conversions.",
+                    "price":"$300",
+                    "per":"project"
+                },
+                {
+                    "title":"Multilingual Marketing and Advertising Materials",
+                    "text":"Capture the attention of diverse markets with our creative translation and adaptation of marketing materials. From brochures and flyers to social media campaigns, we help you communicate your brand message effectively to a global audience.",
+                    "price":"$150",
+                    "per":"project"
+                },
+                {
+                    "title":"Business Document Translation",
+                    "text":"Seamlessly conduct international business with our accurate and reliable translation of business documents. From financial reports and proposals to contracts and presentations, we ensure your content is well-understood by stakeholders worldwide.",
+                    "price":"$0.10",
+                    "per":"word"
+                },
+                {
+                    "title":"Conference Interpretation",
+                    "text":"Facilitate smooth communication at conferences and events with our skilled interpreters. Whether you need simultaneous or consecutive interpretation, we ensure language barriers do not hinder the exchange of valuable information.",
+                    "price":"$150",
+                    "per":"hour (minimum 2 hours)"
+                },
+                {
+                    "title":"Market Research Translation",
+                    "text":"Gain insights into new markets and customer preferences with our market research translation service. Our linguistic experts help you understand and analyze data from various regions, empowering informed business decisions.",
+                    "price":"$0.08",
+                    "per":"word"
+                }
+            ]
+        },
+        {
+            "title":"Medical and Healthcare Translations",
+            "text_short":"Trust our specialized medical translators to accurately convey vital healthcare information and ensure seamless communication in the medical industry.",
+            "text_long":"Our Medical and Healthcare Translations team comprises linguistic experts with a strong background in medicine and healthcare. We understand the importance of precision and clarity in medical content, ensuring that patients, healthcare providers, and researchers can effectively communicate and access critical information.",
+            "link":"medical-and-healthcare-translations",
+            "services":[
+                {
+                    "title":"Medical Report Translation",
+                    "text":"Ensure accurate and reliable translations of medical reports with our specialized medical translation service. Our team of linguists with medical expertise guarantees precise and confidential translations, maintaining the integrity of vital healthcare information.",
+                    "price":"$0.12",
+                    "per":"word"
+                },
+                {
+                    "title":"Patient Information Leaflets",
+                    "text":"Improve patient care and safety by providing clear and understandable patient information leaflets in multiple languages. Our medical translators ensure that critical instructions and warnings are accurately conveyed to patients.",
+                    "price":"$60",
+                    "per":"page"
+                },
+                {
+                    "title":"Clinical Trial Documents",
+                    "text":"Facilitate global medical research by translating clinical trial documents accurately and efficiently. Our expert translators adhere to strict regulatory standards, ensuring consistency and clarity across all translated documents.",
+                    "price":"$0.14",
+                    "per":"word"
+                },
+                {
+                    "title":"Medical Device Manuals",
+                    "text":"Enhance user experience and safety with professionally translated medical device manuals. Our language experts ensure that instructions, warnings, and technical specifications are effectively communicated to users worldwide.",
+                    "price":"$80",
+                    "per":"document"
+                },
+                {
+                    "title":"Healthcare Interpreting (on-site or remote)",
+                    "text":"Break the language barrier in healthcare settings with our healthcare interpreting services. Whether for medical consultations, emergency situations, or patient interviews, our interpreters facilitate smooth communication between healthcare professionals and patients.",
+                    "price":"$120",
+                    "per":"hour"
+                }
+            ]
+        },
+        {
+            "title":"Language Solutions for Education",
+            "text_short":"Empower education providers with accurate and culturally sensitive translations to facilitate effective learning experiences for students worldwide.",
+            "text_long":"Our Language Solutions for Education cater to educational institutions, e-learning platforms, and educational publishers. From translating educational materials to providing multilingual support for online courses, we ensure that language is not a barrier to knowledge-sharing and inclusive learning environments.",
+            "link":"language-solutions-for-education",
+            "services":[
+                {
+                    "title":"E-learning Course Translation",
+                    "text":"Make your educational content accessible to global learners with our E-learning course translation service. We adapt your online courses to different languages, maintaining the quality and effectiveness of the educational material.",
+                    "price":"$200",
+                    "per":"course"
+                },
+                {
+                    "title":"Educational Material Localization",
+                    "text":"Enhance the impact of your educational resources with localized materials. Our expert linguists adapt textbooks, educational videos, and teaching aids to resonate with students from diverse linguistic and cultural backgrounds.",
+                    "price":"$100",
+                    "per":"material"
+                },
+                {
+                    "title":"Academic Transcript Translation",
+                    "text":"Simplify the process for international students by providing accurate translations of academic transcripts. Our certified translations ensure that educational achievements are understood and recognized worldwide.",
+                    "price":"$30",
+                    "per":"document"
+                },
+                {
+                    "title":"Language Support for Virtual Classrooms",
+                    "text":"Foster inclusive learning environments with language support for virtual classrooms. Our qualified interpreters and translators assist students and educators in real-time, ensuring smooth communication and understanding.",
+                    "price":"$150",
+                    "per":"hour"
+                },
+                {
+                    "title":"Study Abroad Document Translation",
+                    "text":"Help students pursue their dreams of studying abroad with our study abroad document translation service. We translate application materials, recommendation letters, and other relevant documents to ensure a seamless application process.",
+                    "price":"$0.10",
+                    "per":"word"
+                }
+            ]
+        }
+    ]
+ }
+ 
