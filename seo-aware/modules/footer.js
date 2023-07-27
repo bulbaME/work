@@ -4,8 +4,8 @@ import { contacts } from "@/public/json/data.json";
 
 export default function Footer() {
     return <div className='w-full p-8 py-2 bg-black text-white'>
-        <div className='max-w-6xl m-auto flex flex-wrap'>
-            <div className='m-auto px-8 py-6 sm:ml-auto ml-0'>
+        <div className='max-w-7xl m-auto flex flex-wrap'>
+            <div className='m-auto px-8 py-6 ml-0'>
                 <div className='font-bold'>Contact us</div>
                 <div>
                     Phone: {contacts.phone}

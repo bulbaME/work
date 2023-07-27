@@ -7,7 +7,7 @@ export default function X() {
     return <>
         <Header page={1} />
         <div className='max-w-7xl m-auto flex mb-16'>
-            <div className='md:w-2/3 p-4 sm:pr-12 py-8'>
+            <div className='md:w-2/3 p-4 sm:pr-12 pt-8'>
                 <div className='text-g-m font-bold sm:text-2xl text-lg'>
                     {"Be SEEN, be FOUND, be AWARE with SEO Aware!"}
                 </div>
@@ -25,7 +25,7 @@ export default function X() {
             <div className='md:block hidden w-1/3 banner-main rounded-bl-[10rem]'></div>
         </div>
         <div className='max-w-7xl m-auto p-4 flex md:flex-nowrap flex-wrap'>
-            <div className='p-14 m-auto'>
+            <div className='p-14 pt-0 m-auto'>
                 <div className='sm:text-3xl text-2xl font-bold text-white text-center'>
                     BE SEEN
                 </div>
@@ -34,7 +34,7 @@ export default function X() {
                 </div>
             </div>
             <div className='bg-white w-px h-[10rem] m-auto md:block hidden' />
-            <div className='p-14 m-auto'>
+            <div className='p-14 pt-0 m-auto'>
                 <div className='sm:text-3xl text-2xl font-bold text-white text-center'>
                     BE FOUND
                 </div>
@@ -43,7 +43,7 @@ export default function X() {
                 </div>
             </div>
             <div className='bg-white w-px h-[10rem] m-auto md:block hidden' />
-            <div className='p-14 m-auto'>
+            <div className='p-14 pt-0 m-auto'>
                 <div className='sm:text-3xl text-2xl font-bold text-white text-center'>
                     BE AWARE
                 </div>
