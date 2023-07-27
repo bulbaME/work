@@ -7,7 +7,7 @@ export default function X() {
     return <>
         <Header page={1} />
         <div className='max-w-7xl m-auto flex mb-16'>
-            <div className='md:w-2/3 p-4 sm:pr-12 pt-8'>
+            <div className='md:w-2/3 p-4 sm:pr-12 pt-10 sm:pt-[7rem]'>
                 <div className='text-g-m font-bold sm:text-2xl text-lg'>
                     {"Be SEEN, be FOUND, be AWARE with SEO Aware!"}
                 </div>
@@ -15,7 +15,7 @@ export default function X() {
                     {"SEO Aware"} <br /> 
                     {"Empowering Your Online Visibility"}
                 </div>
-                <div className='sm:my-16 my-8 text-white font-medium sm:text-2xl text-lg'>
+                <div className='sm:my-20 my-12 text-white font-medium sm:text-2xl text-lg'>
                     {"Welcome to SEO Aware, the compass that guides your digital presence! Our mission is simple yet powerful: to make your brand SEEN, FOUND, and AWARE in the vast online landscape."}
                 </div>
                 <div className='py-6 hover:pt-2 hover:pb-10 duration-300'>
