@@ -8,7 +8,7 @@ export default function ContactCard(props) {
                 <div className='sm:text-5xl text-3xl font-bold text-b-m'>
                     {props.title}
                 </div>
-                <div className='mt-4 sm:text-2xl text-lg font-medium text-b-l'>
+                <div className='mt-4 sm:text-2xl text-lg font-medium text-b-d'>
                     {props.text}
                 </div>
             </div>

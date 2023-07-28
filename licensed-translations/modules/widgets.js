@@ -8,6 +8,12 @@ export function Button(props) {
     </div>;
 } 
 
+export function ButtonL(props) {
+    return <div className='w-fit p-3 px-4 bg-white text-b-d rounded-lg m-auto font-bold sm:text-xl my-4 hover:mt-2 hover:mb-6 duration-300 hover:drop-shadow-lg'>
+        <Link href={props.route}>{props.text}</Link>
+    </div>;
+} 
+
 function CFeatures(props) {
     return <div className='p-6 max-w-[30rem] m-auto'>
         <div className='p-6 bg-white drop-shadow-lg text-b-m text-center'>
@@ -17,7 +23,7 @@ function CFeatures(props) {
             <div className='p-4 m-auto w-fit my-8'>
                 {props.img}
             </div>
-            <div className='sm:text-2xl text-lg font-medium'>
+            <div className='sm:text-2xl text-lg font-medium text-b-d'>
                 {props.text}
             </div>
         </div>
@@ -25,7 +31,7 @@ function CFeatures(props) {
 }
 
 export function WFeatures() {
-    return <div className='py-16 flex flex-wrap'>
+    return <div className='py-16 flex flex-wrap max-w-7xl m-auto p-8'>
         <div className='w-full text-center sm:text-5xl text-3xl font-bold text-b-m mb-8'>
             Why Choose Licensed Translation?
         </div>
@@ -63,7 +69,7 @@ function CProcessR(props) {
         <div className='flex m-auto bg-white drop-shadow-lg sm:min-w-[10rem] sm:min-h-[10rem] min-h-[5rem] min-w-[5rem] w-fit h-fit font-bold text-b-m text-5xl sm:text-7xl'><div className='m-auto'>{props.n}</div></div>
         <div className='text-b-m my-auto ml-8'>
             <div className='font-bold sm:text-4xl text-2xl mb-6'>{props.title}</div>
-            <div className='font-medium sm:text-2xl text-lg'>{props.text}</div>
+            <div className='font-medium sm:text-2xl text-lg text-b-d'>{props.text}</div>
         </div>
     </div>;
 }
@@ -72,14 +78,14 @@ function CProcessL(props) {
     return <div className='my-16 flex w-full'>
         <div className='text-b-m my-auto mr-8'>
             <div className='font-bold sm:text-4xl text-2xl mb-6'>{props.title}</div>
-            <div className='font-medium sm:text-2xl text-lg'>{props.text}</div>
+            <div className='font-medium sm:text-2xl text-lg text-b-d'>{props.text}</div>
         </div>
         <div className='flex m-auto mr-0 bg-white drop-shadow-lg sm:min-w-[10rem] sm:min-h-[10rem] min-h-[5rem] min-w-[5rem] w-fit h-fit font-bold text-b-m text-5xl sm:text-7xl'><div className='m-auto'>{props.n}</div></div>
     </div>;
 }
 
 export function WProcess() {
-    return <div className='py-16'>
+    return <div className='py-16 max-w-7xl m-auto p-8'>
         <div className='w-full text-center sm:text-5xl text-3xl font-bold text-b-m mb-8'>Our Translation Process</div>
         <div className='flex flex-wrap'>
             <CProcessR title='Project Assessment' text="We start by understanding your requirements and project scope to provide a tailored solution for your translation needs." n={1} />
@@ -92,29 +98,31 @@ export function WProcess() {
 }
 
 export function Cta(props) {
-    return <div className='max-w-5xl py-16 text-center m-auto'>
-        <div className='sm:text-5xl text-3xl font-bold text-b-m'>
-            {props.title}
-        </div>
-        <div className='sm:text-3xl text-xl font-bold text-b-l my-4'>
-            {props.slogan}
-        </div>
-        <div className='sm:text-2xl text-lg font-medium text-b-m my-12'>
-            {props.text}
-        </div>
-        <div className='p-1'>
-            <Button text={props.cta} route={props.route} />
+    return <div className='py-16 bg-b-m'>
+        <div className='max-w-5xl text-center m-auto p-8'>
+            <div className='sm:text-5xl text-3xl font-bold text-white'>
+                {props.title}
+            </div>
+            <div className='sm:text-3xl text-xl font-bold text-b-l my-4'>
+                {props.slogan}
+            </div>
+            <div className='sm:text-2xl text-lg font-medium text-white my-12'>
+                {props.text}
+            </div>
+            <div className='p-1'>
+                <ButtonL text={props.cta} route={props.route} />
+            </div>
         </div>
     </div>;
 }
 
 function CStats(props) {
-    return <div className='md:w-1/2 p-4 m-auto my-12'>
+    return <div className='md:w-1/2 p-4 m-auto my-12 '>
         <div className='sm:text-4xl text-2xl font-bold text-b-m'>
             {props.title}
         </div>
         <div className='sm:ml-12 mx-8 sm:my-8 my-4'>
-            <div className='font-medium sm:text-2xl text-lg text-b-m'>
+            <div className='font-medium sm:text-2xl text-lg text-b-d'>
                 {props.t1}
             </div>
             { props.s1 ? 
@@ -131,7 +139,7 @@ function CStats(props) {
             :'' }
         </div>
         <div className='sm:ml-12 mx-8 my-16'>
-            <div className='font-medium sm:text-2xl text-lg text-b-m'>
+            <div className='font-medium sm:text-2xl text-lg text-b-d'>
                 {props.t2}
             </div>
             { props.s2 ? 
@@ -150,8 +158,8 @@ function CStats(props) {
     </div>;
 }
 
-export function WStats(props) {
-    return <div className='py-16'>
+export function WStats() {
+    return <div className='py-16 max-w-7xl m-auto p-8'>
         <div className='text-center font-bold sm:text-5xl text-3xl text-b-m'>The Power of Language Translation</div>
         <div className='flex flex-wrap'>
             <CStats 
@@ -196,26 +204,28 @@ export function WStats(props) {
 
 function CServicesSmall(props) {
     return <div className='p-6 m-auto md:w-1/4 py-16'>
-        <div className='sm:text-4xl text-center text-2xl text-b-m font-bold mb-8'>
+        <div className='sm:text-4xl text-center text-2xl text-white font-bold mb-8'>
             {props.title}
         </div>
-        <div className='bg-white p-6 drop-shadow-lg text-center font-medium text-b-m sm:text-2xl text-lg'>
+        <div className='bg-white p-6 drop-shadow-lg text-center font-medium text-b-d sm:text-2xl text-lg'>
             {props.text}
         </div>
         <div className='p-1 mt-8'>
-            <Button text='See more' route={props.link} />
+            <ButtonL text='See more' route={props.link} />
         </div>
     </div>;
 }
 
 export function WServicesSmall() {
-    return <div className='py-16'>
-        <div className='text-center font-bold sm:text-5xl text-3xl text-b-m'>Services we provide</div>
-        <div className='flex flex-wrap'>
-            <CServicesSmall title={services[0].title} text={services[0].text_short} link={services[0].link}  />
-            <CServicesSmall title={services[1].title} text={services[1].text_short} link={services[1].link}  />
-            <CServicesSmall title={services[2].title} text={services[2].text_short} link={services[2].link}  />
-            <CServicesSmall title={services[3].title} text={services[3].text_short} link={services[3].link}  />
+    return <div className='bg-b-m py-16'>
+        <div className='max-w-7xl p-4 m-auto'>
+            <div className='text-center font-bold sm:text-5xl text-3xl text-white'>Services we provide</div>
+            <div className='flex flex-wrap'>
+                <CServicesSmall title={services[0].title} text={services[0].text_short} link={services[0].link}  />
+                <CServicesSmall title={services[1].title} text={services[1].text_short} link={services[1].link}  />
+                <CServicesSmall title={services[2].title} text={services[2].text_short} link={services[2].link}  />
+                <CServicesSmall title={services[3].title} text={services[3].text_short} link={services[3].link}  />
+            </div>
         </div>
     </div>;
 }
@@ -230,7 +240,7 @@ export function P1L(props) {
             <div className='md:w-1/3 md:pr-8 md:mb-auto my-auto mb-8'>
                 <Image src={props.img} width={1000} height={500} alt='Image' />
             </div>
-            <div className='md:w-2/3 my-auto font-medium text-b-m sm:text-2xl text-lg'>
+            <div className='md:w-2/3 my-auto font-medium text-b-d sm:text-2xl text-lg'>
                 {props.text}
             </div>
         </div>
@@ -262,7 +272,7 @@ function CServices(props) {
             {props.title}
         </div>
         <div className='flex flex-wrap'>
-            <div className='md:w-4/5 my-auto pr-8 sm:text-2xl text-lg font-medium text-b-m'>
+            <div className='md:w-4/5 my-auto pr-8 sm:text-2xl text-lg font-medium text-b-d'>
                 {props.text}
             </div>
             <div className='p-4 flex md:flex-wrap md:w-1/6 w-full m-auto md:px-6'>
@@ -302,7 +312,7 @@ function CService(props) {
                     </div>
                 </div>
             </div>
-            <div className='p-6 sm:text-2xl text-lg font-medium text-b-m text-center'>
+            <div className='p-6 sm:text-2xl text-lg font-medium text-b-d text-center'>
                 {props.text}
             </div>
         </div>

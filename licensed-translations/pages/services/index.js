@@ -16,8 +16,8 @@ export default function X() {
         <div className='max-w-7xl m-auto p-8'>
             <WServices />
             <WFeatures />
-            <Cta cta='Contact today' route='/contact' title='Expand Your Horizons' slogan='Reach Global Audiences with Ease' text="Break language barriers and take your business or education to new heights. Embrace professional translation services and open doors to international markets. It's time to expand your horizons!" />
         </div>
+        <Cta cta='Contact today' route='/contact' title='Expand Your Horizons' slogan='Reach Global Audiences with Ease' text="Break language barriers and take your business or education to new heights. Embrace professional translation services and open doors to international markets. It's time to expand your horizons!" />
         <Footer/>
     </>;
 } 

@@ -74,19 +74,19 @@ export default function X() {
                         <div className='m-2 mr-0 sm:text-xl font-semibold'>
                             Your name
                         </div>
-                        <input required className='bg-stone-100  rounded-lg select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 sm:w-3/5 w-full m-auto' value={name} onChange={(e) => setName(e.value)} />
+                        <input required className='bg-stone-100 text-b-d  rounded-lg select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 sm:w-3/5 w-full m-auto' value={name} onChange={(e) => setName(e.value)} />
                     </label>
                     <label className='m-4 sm:flex'>
                         <div className='m-2 mr-0 sm:text-xl font-semibold'>
                             Your E-mail
                         </div>
-                        <input required type='email' className='bg-stone-100 rounded-lg select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 sm:w-3/5 w-full m-auto' value={mail} onChange={(e) => setMail(e.value)} />
+                        <input required type='email' className='bg-stone-100 text-b-d rounded-lg select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 sm:w-3/5 w-full m-auto' value={mail} onChange={(e) => setMail(e.value)} />
                     </label>
                     <label className='m-4 sm:flex'>
                         <div className='m-2 mr-0 sm:w-1/3 sm:text-xl font-semibold'>
                             Describe your needs
                         </div>
-                        <textarea className='bg-stone-100 select-none rounded-lg appearance-none outline-none text-p-d p-2 px-4 h-[6rem] mr-2 sm:w-3/5 w-full m-auto resize-none' value={text} onChange={(e) => setText(e.value)} />
+                        <textarea className='bg-stone-100 text-b-d select-none rounded-lg appearance-none outline-none text-p-d p-2 px-4 h-[6rem] mr-2 sm:w-3/5 w-full m-auto resize-none' value={text} onChange={(e) => setText(e.value)} />
                     </label>
                     <Listbox value={product} onChange={setProduct} >
                         <Listbox.Button className='py-6 hover:pt-4 hover:pb-8 duration-300'>{<div className='cursor-pointer sm:ml-3 ml-0 font-bold text-xl text-white bg-b-m p-3 rounded-lg hover:drop-shadow-lg duration-300'>{product}</div>}</Listbox.Button>
