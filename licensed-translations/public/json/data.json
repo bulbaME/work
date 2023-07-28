@@ -4,7 +4,7 @@
             "title":"Legal Language Experts",
             "text_short":"Entrust your legal documents and contracts to our expert linguists, ensuring accurate translations and adherence to legal terminology across different jurisdictions.",
             "text_long":"Our Legal Language Experts specialize in providing precise and reliable translations for all your legal needs. We understand the critical importance of maintaining the integrity of legal content while navigating the complexities of different legal systems. With years of experience and a deep understanding of legal terminology, our team guarantees top-notch translations that stand up to the scrutiny of courts and legal professionals.",
-            "link":"legal-language-experts",
+            "link":"/services/legal-language-experts",
             "services":[
                 {
                     "title":"Translation of Legal Contracts and Agreements",
@@ -42,7 +42,7 @@
             "title":"Global Business Solutions",
             "text_short":"Expand your business globally with our comprehensive translation services, tailored to meet the unique needs of international businesses.",
             "text_long":"Our Global Business Solutions team is dedicated to helping companies break down language barriers and reach new markets worldwide. Whether you need multilingual marketing materials, localized websites, or clear business communication with international partners, our experts ensure that your message is conveyed effectively and resonates with diverse audiences.",
-            "link":"global-business-solutions",
+            "link":"/services/global-business-solutions",
             "services":[
                 {
                     "title":"Website Localization",
@@ -80,7 +80,7 @@
             "title":"Medical and Healthcare Translations",
             "text_short":"Trust our specialized medical translators to accurately convey vital healthcare information and ensure seamless communication in the medical industry.",
             "text_long":"Our Medical and Healthcare Translations team comprises linguistic experts with a strong background in medicine and healthcare. We understand the importance of precision and clarity in medical content, ensuring that patients, healthcare providers, and researchers can effectively communicate and access critical information.",
-            "link":"medical-and-healthcare-translations",
+            "link":"/services/medical-and-healthcare-translations",
             "services":[
                 {
                     "title":"Medical Report Translation",
@@ -118,7 +118,7 @@
             "title":"Language Solutions for Education",
             "text_short":"Empower education providers with accurate and culturally sensitive translations to facilitate effective learning experiences for students worldwide.",
             "text_long":"Our Language Solutions for Education cater to educational institutions, e-learning platforms, and educational publishers. From translating educational materials to providing multilingual support for online courses, we ensure that language is not a barrier to knowledge-sharing and inclusive learning environments.",
-            "link":"language-solutions-for-education",
+            "link":"/services/language-solutions-for-education",
             "services":[
                 {
                     "title":"E-learning Course Translation",
@@ -152,6 +152,11 @@
                 }
             ]
         }
-    ]
- }
+    ],
+    "contacts": {
+        "phone": "+52 (412) 211-653",
+        "mail": "support@licensed-translations.com",
+        "adress": "19550 Lorne St, Reseda, CA 91335, USA"
+    }
+}
  

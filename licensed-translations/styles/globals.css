@@ -12,3 +12,7 @@
     background-image: url('/img/banner.jpg');
     background-size: cover;
 }
+
+.h-c-1 {
+    height: calc(100vh - 26.8rem);
+}

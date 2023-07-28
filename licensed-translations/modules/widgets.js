@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import { services } from "@/public/json/data.json";
 
 export function Button(props) {
     return <div className='w-fit p-3 px-4 bg-b-m text-white rounded-lg m-auto font-bold sm:text-xl my-4 hover:mt-2 hover:mb-6 duration-300 hover:drop-shadow-lg'>
@@ -23,7 +25,7 @@ function CFeatures(props) {
 }
 
 export function WFeatures() {
-    return <div className='my-24 flex flex-wrap'>
+    return <div className='py-16 flex flex-wrap'>
         <div className='w-full text-center sm:text-5xl text-3xl font-bold text-b-m mb-8'>
             Why Choose Licensed Translation?
         </div>
@@ -77,7 +79,7 @@ function CProcessL(props) {
 }
 
 export function WProcess() {
-    return <div className='my-24'>
+    return <div className='py-16'>
         <div className='w-full text-center sm:text-5xl text-3xl font-bold text-b-m mb-8'>Our Translation Process</div>
         <div className='flex flex-wrap'>
             <CProcessR title='Project Assessment' text="We start by understanding your requirements and project scope to provide a tailored solution for your translation needs." n={1} />
@@ -90,8 +92,19 @@ export function WProcess() {
 }
 
 export function Cta(props) {
-    return <div className='max-w-7xl my-24'>
-
+    return <div className='max-w-5xl py-16 text-center m-auto'>
+        <div className='sm:text-5xl text-3xl font-bold text-b-m'>
+            {props.title}
+        </div>
+        <div className='sm:text-3xl text-xl font-bold text-b-l my-4'>
+            {props.slogan}
+        </div>
+        <div className='sm:text-2xl text-lg font-medium text-b-m my-12'>
+            {props.text}
+        </div>
+        <div className='p-1'>
+            <Button text={props.cta} route={props.route} />
+        </div>
     </div>;
 }
 
@@ -100,36 +113,36 @@ function CStats(props) {
         <div className='sm:text-4xl text-2xl font-bold text-b-m'>
             {props.title}
         </div>
-        <div className='sm:ml-12 ml-8 sm:my-8 my-4'>
+        <div className='sm:ml-12 mx-8 sm:my-8 my-4'>
             <div className='font-medium sm:text-2xl text-lg text-b-m'>
                 {props.t1}
             </div>
             { props.s1 ? 
-                <div className='flex my-4'>
-                    <div className='w-fit mr-4 font-bold lg:text-3xl text-2xl text-b-m'>
+                <div className='flex my-8'>
+                    <div className='w-fit mr-4 font-bold lg:text-3xl text-xl text-b-m whitespace-nowrap'>
                         {props.s1}%
                     </div>
                     <div className='w-3/4 relative h-fit m-auto'>
                         <div className='w-full bg-white drop-shadow-md h-[1rem] rounded-full' />
-                        <div className={`absolute -mt-[1rem] w-[${50 + parseInt(props.s1) / 2}%] bg-b-m drop-shadow-md h-[1rem] rounded-full`} />
-                        <div className='absolute -mt-[1.25rem] left-1/2 -translate-x-1/2 w-[0.8rem] h-[1.5rem] bg-b-d rounded-[0.3rem]' /> 
+                        <div className={'absolute -mt-[1rem] bg-b-m drop-shadow-md h-[1rem] rounded-full ' + props.w1} />
+                        <div className='absolute -mt-[1.25rem] left-1/2 -translate-x-1/2 sm:w-[0.8rem] w-[0.5rem] h-[1.5rem] bg-b-d rounded-[0.3rem]' /> 
                     </div>
                 </div>
             :'' }
         </div>
-        <div className='sm:ml-12 ml-8 my-12'>
+        <div className='sm:ml-12 mx-8 my-16'>
             <div className='font-medium sm:text-2xl text-lg text-b-m'>
                 {props.t2}
             </div>
             { props.s2 ? 
-                <div className='flex my-2'>
-                    <div className='w-fit mr-4 font-bold lg:text-3xl text-2xl text-b-m'>
+                <div className='flex my-8'>
+                    <div className='w-fit mr-4 font-bold lg:text-3xl text-xl text-b-m whitespace-nowrap'>
                         {props.s2}%
                     </div>
                     <div className='w-3/4 relative h-fit m-auto'>
                         <div className='w-full bg-white drop-shadow-md h-[1rem] rounded-full' />
-                        <div className={`absolute -mt-[1rem] w-[${50 + parseInt(props.s2) / 2}%] bg-b-m drop-shadow-md h-[1rem] rounded-full`} />
-                        <div className='absolute -mt-[1.25rem] left-1/2 -translate-x-1/2 w-[0.8rem] h-[1.5rem] bg-b-d rounded-[0.3rem]' /> 
+                        <div className={'absolute -mt-[1rem] bg-b-m drop-shadow-md h-[1rem] rounded-full ' + props.w2} />
+                        <div className='absolute -mt-[1.25rem] left-1/2 -translate-x-1/2 sm:w-[0.8rem] w-[0.5rem] h-[1.5rem] bg-b-d rounded-[0.3rem]' /> 
                     </div>
                 </div>
             :'' }
@@ -138,44 +151,172 @@ function CStats(props) {
 }
 
 export function WStats(props) {
-    return <div className='my-24'>
-        <div className='p-4 text-center font-bold sm:text-5xl text-3xl text-b-m'>The Power of Language Translation</div>
+    return <div className='py-16'>
+        <div className='text-center font-bold sm:text-5xl text-3xl text-b-m'>The Power of Language Translation</div>
         <div className='flex flex-wrap'>
-            <CStats 
-                title='Global Business Growth' 
-                t1="78% of businesses that invest in professional translation services experience significant growth in international markets." 
-                s1='' 
-                t2="Companies that localize their websites into multiple languages witness an average increase of 120% in website traffic from foreign countries." 
-                s2='+120'
-            />
             <CStats 
                 title='Educational Reach' 
                 t1="E-learning platforms offering courses in multiple languages attract 60% more enrollments from international learners compared to monolingual platforms." 
-                s1='+60' 
+                s1='+ 60' 
+                w1='w-[80%]'
                 t2="Universities that provide multilingual support in virtual classrooms report a 35% improvement in international student satisfaction and engagement." 
-                s2='+35'
-            />
-            <CStats 
-                title='Language and Customer Trust' 
-                t1="92% of consumers are more likely to trust and make purchases from websites that offer content in their native language." 
-                s1='' 
-                t2="Providing customer support in multiple languages results in a 50% reduction in customer complaints and higher customer retention rates." 
-                s2='-50'
-            />
-            <CStats 
-                title='Medical Communication Impact' 
-                t1="Hospitals and clinics that offer interpretation services experience a 40% decrease in medical errors and misdiagnoses due to language barriers." 
-                s1='-40' 
-                t2="Accurate translation of medical documents leads to a 75% increase in patient compliance with prescribed treatments." 
-                s2='+75'
+                s2='+ 35'
+                w2='w-[70%]'
             />
             <CStats 
                 title='Legal Efficiency' 
                 t1="Law firms that utilize professional legal translation services save an average of 30% on time spent reviewing translated documents compared to in-house translations." 
-                s1='+30' 
+                s1='+ 30' 
+                w1='w-[65%]'
                 t2="Accurate and certified translations in legal proceedings result in a 90% higher success rate for international litigation cases." 
-                s2='+90'
+                s2='+ 90'
+                w2='w-[95%]'
+            />
+            <CStats
+                title='Market Research Insights'
+                t1="Companies that translate market research surveys into local languages gather 40% more comprehensive and reliable data from international respondents."
+                s1='+ 40'
+                w1='w-[70%]'
+                t2="Localization of product packaging and labeling increases consumer product adoption by 25% in foreign markets."
+                s2='+ 25'
+                w2='w-[65%]'
+            />
+            <CStats
+                title='Social Media Engagement'
+                t1="Social media posts in multiple languages receive 70% more shares and interactions from global audiences."
+                s1='+ 70'
+                w1='w-[85%]'
+                t2="Brands that communicate with customers in their native language on social media platforms experience a 60% increase in brand loyalty and advocacy."
+                s2='+ 60'
+                w2='w-[80%]'
             />
         </div>
     </div>;
+}
+
+function CServicesSmall(props) {
+    return <div className='p-6 m-auto md:w-1/4 py-16'>
+        <div className='sm:text-4xl text-center text-2xl text-b-m font-bold mb-8'>
+            {props.title}
+        </div>
+        <div className='bg-white p-6 drop-shadow-lg text-center font-medium text-b-m sm:text-2xl text-lg'>
+            {props.text}
+        </div>
+        <div className='p-1 mt-8'>
+            <Button text='See more' route={props.link} />
+        </div>
+    </div>;
+}
+
+export function WServicesSmall() {
+    return <div className='py-16'>
+        <div className='text-center font-bold sm:text-5xl text-3xl text-b-m'>Services we provide</div>
+        <div className='flex flex-wrap'>
+            <CServicesSmall title={services[0].title} text={services[0].text_short} link={services[0].link}  />
+            <CServicesSmall title={services[1].title} text={services[1].text_short} link={services[1].link}  />
+            <CServicesSmall title={services[2].title} text={services[2].text_short} link={services[2].link}  />
+            <CServicesSmall title={services[3].title} text={services[3].text_short} link={services[3].link}  />
+        </div>
+    </div>;
+}
+
+export function P1L(props) {
+    return <div className='py-16 max-w-7xl m-auto p-4'>
+        <div className='text-left'>
+            <div className='sm:text-4xl text-2xl font-bold text-b-m'>{props.title}</div>
+            <div className='sm:text-2xl text-lg font-bold text-b-l'>{props.slogan}</div>
+        </div>
+        <div className='flex flex-wrap my-8'>
+            <div className='md:w-1/3 md:pr-8 md:mb-auto my-auto mb-8'>
+                <Image src={props.img} width={1000} height={500} alt='Image' />
+            </div>
+            <div className='md:w-2/3 my-auto font-medium text-b-m sm:text-2xl text-lg'>
+                {props.text}
+            </div>
+        </div>
+    </div>;
+}
+
+export function P1D(props) {
+    return <div className='bg-b-m py-16'>
+        <div className='max-w-7xl m-auto p-4'>
+            <div className='text-left'>
+                <div className='sm:text-4xl text-2xl font-bold text-white'>{props.title}</div>
+                <div className='sm:text-2xl text-lg font-bold text-b-l'>{props.slogan}</div>
+            </div>
+            <div className='flex flex-wrap my-8'>
+                <div className='md:w-1/3 md:pr-8 md:mb-auto my-auto mb-8'>
+                    <Image src={props.img} width={1000} height={500} alt='Image' />
+                </div>
+                <div className='md:w-2/3 my-auto font-medium text-white sm:text-2xl text-lg'>
+                    {props.text}
+                </div>
+            </div>
+        </div>
+    </div>;
+}
+
+function CServices(props) {
+    return <div className='py-12'>
+        <div className='sm:text-4xl text-2xl font-bold text-b-m mb-8'>
+            {props.title}
+        </div>
+        <div className='flex flex-wrap'>
+            <div className='md:w-4/5 my-auto pr-8 sm:text-2xl text-lg font-medium text-b-m'>
+                {props.text}
+            </div>
+            <div className='p-4 flex md:flex-wrap md:w-1/6 w-full m-auto md:px-6'>
+                <div className='w-full bg-b-m p-2 mx-4 rounded-lg text-2xl font-bold text-white text-center my-4 hover:mb-6 hover:mt-2 hover:drop-shadow-lg duration-300'>
+                    <Link href='/contact'>Select</Link>
+                </div>
+                <div className='w-full bg-b-m p-2 mx-4 rounded-lg text-2xl font-bold text-white text-center my-4 hover:mb-6 hover:mt-2 hover:drop-shadow-lg duration-300'>
+                    <Link href={props.link}>More</Link>
+                </div>
+            </div>
+        </div>
+    </div>;
+}
+
+export function WServices() {
+    return <div className='py-16'>
+        <CServices title={services[0].title} text={services[0].text_long} link={services[0].link} />
+        <CServices title={services[1].title} text={services[1].text_long} link={services[1].link} />
+        <CServices title={services[2].title} text={services[2].text_long} link={services[2].link} />
+        <CServices title={services[3].title} text={services[3].text_long} link={services[3].link} />
+    </div>;
+}
+
+function CService(props) {
+    return <a href='/contact'><div className='py-8 p-4 hover:pt-4 hover:pb-12 duration-300'>
+        <div className='bg-white drop-shadow-lg text-center'>
+            <div className='p-6 sm:text-4xl text-2xl font-bold text-b-m'>
+                {props.title}
+            </div>
+            <div className='w-full bg-b-m p-4'>
+                <div className='flex w-fit m-auto'>
+                    <div className='sm:text-4xl text-2xl font-bold text-white'>
+                        {props.price}
+                    </div>
+                    <div className='my-auto ml-2 text-white text-xl font-bold'>
+                        / {props.per}
+                    </div>
+                </div>
+            </div>
+            <div className='p-6 sm:text-2xl text-lg font-medium text-b-m text-center'>
+                {props.text}
+            </div>
+        </div>
+    </div></a>;
+}
+
+export function WService(props) {
+    const s = props.s.map((v, i) => {
+        return <div className='sm:w-2/5 m-auto'>
+            <CService key={i} {...v} />
+        </div>;
+    });
+
+    return <div className='flex flex-wrap'>
+        {...s}
+    </div>
 }
