@@ -7,7 +7,9 @@ export default function X() {
         <div className='text-center text-b-m text-3xl text-b-c font-bold py-5'>
             Terms & Conditions
         </div>
-        <iframe src='/html/Terms & Conditions.html' className='h-c-1 max-w-7xl m-auto' />
+        <div className='max-w-7xl m-auto'>
+            <iframe src='/html/Terms & Conditions.html' className='h-c-1 w-full m-auto' />
+        </div>
         <Footer />
     </>;
 }
