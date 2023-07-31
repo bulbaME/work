@@ -7,7 +7,7 @@ export default function X() {
     return <>
         <Header page={1} />
         <div className='bg-1 pb-[40rem] sm:-mb-[28rem] -mb-[36rem]'>
-            <div className='max-w-7xl m-auto p-6'>
+            <div className='max-w-7xl m-auto p-6 pt-12'>
                 <div className='flex flex-wrap py-6 pt-0'>
                     <div className='md:w-2/3'>
                         <div className='sm:text-2xl text-xl font-bold text-o-d my-2'>
