@@ -60,19 +60,19 @@ export default function X() {
                         <div className='m-2 mr-0 text-xl font-semibold'>
                             Your name
                         </div>
-                        <input required className='bg-y-m select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 w-3/5 m-auto' value={name} onChange={(e) => Setname(e.value)} />
+                        <input required className='bg-y-m select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 w-3/5 m-auto' value={name} onChange={(e) => Setname(e.target.value)} />
                     </label>
                     <label className='m-4 flex'>
                         <div className='m-2 mr-0 text-lg sm:text-xl font-semibold'>
                             Your E-mail
                         </div>
-                        <input required type='email' className='bg-y-m select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 w-3/5 m-auto' value={mail} onChange={(e) => Setmail(e.value)} />
+                        <input required type='email' className='bg-y-m select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 w-3/5 m-auto' value={mail} onChange={(e) => Setmail(e.target.value)} />
                     </label>
                     <label className='m-4 flex'>
                         <div className='m-2 mr-0 w-1/3 text-xl font-semibold'>
                             Describe your needs
                         </div>
-                        <textarea className='bg-y-m select-none appearance-none outline-none text-p-d p-2 px-4 h-[6rem] mr-2 w-3/5 m-auto resize-none' value={text} onChange={(e) => Settext(e.value)} />
+                        <textarea className='bg-y-m select-none appearance-none outline-none text-p-d p-2 px-4 h-[6rem] mr-2 w-3/5 m-auto resize-none' value={text} onChange={(e) => Settext(e.target.value)} />
                     </label>
                     <Listbox value={product} onChange={Setproduct} >
                         <Listbox.Button className='cursor-pointer m-6 mt-2 font-bold text-xl bg-v1-l text-black hover:underline decoration-b-l duration-300'>{product}</Listbox.Button>
