@@ -94,7 +94,7 @@ export default function X() {
                 </form>
                 </a>
                 <div className='sm:w-1/2 p-4 w-full'>
-                    <iframe className='w-full h-full min-h-[15rem]' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3020.2271851375313!2d-96.7019047!3d40.8010012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796be55cd1a2485%3A0xfe835eced7007c1d!2s1321%20D%20St%2C%20Lincoln%2C%20NE%2068502%2C%20USA!5e0!3m2!1sen!2s!4v1690189678563!5m2!1sen!2s" width="600" height="450" style={{border: 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe className='w-full h-full min-h-[15rem]' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d350020.8812288971!2d23.6559884!3d46.7345706!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490ebd65237e31%3A0xad4ff81bf723d26f!2sStrada%20Carpa%C8%9Bi%2013%2C%20Cluj-Napoca%20400638%2C%20Romania!5e0!3m2!1sen!2s!4v1690875267142!5m2!1sen!2s" style={{border: 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
