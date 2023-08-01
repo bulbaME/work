@@ -12,5 +12,5 @@ const send_mail = (name, mail, product, text) => {
 export default function handler(req, res) {
     const body = JSON.parse(req.body);
     send_mail(...body);
-    res.status(200);
+    res.status(200).end();
 }
