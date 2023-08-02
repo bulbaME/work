@@ -75,19 +75,19 @@ export default function X() {
                         <div className='m-2 mr-0 sm:text-xl font-semibold'>
                             Your name
                         </div>
-                        <input required className='rounded-lg border-[1px] duration-300 focus:drop-shadow-lg border-neutral-300 select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 sm:w-3/5 w-full m-auto' value={name} onChange={(e) => setName(e.value)} />
+                        <input required className='rounded-lg border-[1px] duration-300 focus:drop-shadow-lg border-neutral-300 select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 sm:w-3/5 w-full m-auto' value={name} onChange={(e) => setName(e.target.value)} />
                     </label>
                     <label className='m-4 sm:flex'>
                         <div className='m-2 mr-0 sm:text-xl font-semibold'>
                             Your E-mail
                         </div>
-                        <input required type='email' className='rounded-lg border-[1px] duration-300 focus:drop-shadow-lg border-neutral-300 select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 sm:w-3/5 w-full m-auto' value={mail} onChange={(e) => setMail(e.value)} />
+                        <input required type='email' className='rounded-lg border-[1px] duration-300 focus:drop-shadow-lg border-neutral-300 select-none appearance-none outline-none text-p-d p-2 px-4 mr-2 sm:w-3/5 w-full m-auto' value={mail} onChange={(e) => setMail(e.target.value)} />
                     </label>
                     <label className='m-4 sm:flex'>
                         <div className='m-2 mr-0 sm:w-1/3 sm:text-xl font-semibold'>
                             Describe your needs
                         </div>
-                        <textarea className='select-none rounded-lg border-[1px] duration-300 focus:drop-shadow-lg border-neutral-300 appearance-none outline-none text-p-d p-2 px-4 h-[6rem] mr-2 sm:w-3/5 w-full m-auto resize-none' value={text} onChange={(e) => setText(e.value)} />
+                        <textarea className='select-none rounded-lg border-[1px] duration-300 focus:drop-shadow-lg border-neutral-300 appearance-none outline-none text-p-d p-2 px-4 h-[6rem] mr-2 sm:w-3/5 w-full m-auto resize-none' value={text} onChange={(e) => setText(e.target.value)} />
                     </label>
                     <div className='flex pt-12 relative'>
                         <Listbox value={product} onChange={setProduct} >

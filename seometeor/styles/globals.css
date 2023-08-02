@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.bg1 {
+    background-image: url('/svg/bg1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.bg2 {
+    background-image: url('/svg/bg2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.header-font {
+    font-family: 'Prompt', sans-serif;
+}
+
+.img1 {
+    background-image: linear-gradient(rgba(129, 94, 212, 0.7), rgba(93, 121, 212, 0.7)), url('/img/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    background-image: linear-gradient(rgba(118, 114, 235, 0.7), rgba(108, 177, 246, 0.7)), url('/img/2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    background-image: linear-gradient(rgba(118, 114, 235, 0.7), rgba(108, 177, 246, 0.7)), url('/img/3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img4 {
+    background-image: linear-gradient(rgba(129, 94, 212, 0.7), rgba(93, 121, 212, 0.7)), url('/img/4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img5 {
+    background-image: linear-gradient(rgba(129, 94, 212, 0.7), rgba(93, 121, 212, 0.7)), url('/img/5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img6 {
+    background-image: linear-gradient(rgba(129, 94, 212, 0.7), rgba(93, 121, 212, 0.7)), url('/img/6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img7 {
+    background-image: linear-gradient(rgba(118, 114, 235, 0.7), rgba(108, 177, 246, 0.7)), url('/img/7.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img8 {
+    background-image: linear-gradient(rgba(129, 94, 212, 0.7), rgba(93, 121, 212, 0.7)), url('/img/8.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img9 {
+    background-image: linear-gradient(rgba(118, 114, 235, 0.7), rgba(108, 177, 246, 0.7)), url('/img/9.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img10 {
+    background-image: linear-gradient(rgba(129, 94, 212, 0.7), rgba(93, 121, 212, 0.7)), url('/img/10.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.h-c-1 {
+    height: calc(100vh - 24.8rem);
+}
