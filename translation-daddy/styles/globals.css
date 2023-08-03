@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&family=REM:wght@600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Geologica', sans-serif;
+}
+
+.banner-main {
+    background-image: url('/img/banner.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-title {
+    font-family: 'REM', sans-serif;
+}
+
+.img-1 {
+    background-image: url('/img/1.jpg');
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.img-2 {
+    background-image: url('/img/2.jpg');
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.img-3 {
+    background-image: url('/img/3.jpg');
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.img-4 {
+    background-image: url('/img/4.jpg');
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.img-5 {
+    background-image: url('/img/5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-6 {
+    background-image: url('/img/6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-7 {
+    background-image: url('/img/7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-8 {
+    background-image: url('/img/8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-9 {
+    background-image: url('/img/9.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-10 {
+    background-image: url('/img/10.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-11 {
+    background-image: url('/img/11.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-12 {
+    background-image: url('/img/12.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-13 {
+    background-image: url('/img/13.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-14 {
+    background-image: url('/img/14.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-15 {
+    background-image: url('/img/15.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h-c-1 {
+    height: calc(100vh - 24.2rem);
+}

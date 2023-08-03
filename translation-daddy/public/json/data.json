@@ -1,0 +1,167 @@
+{
+    "services": [
+        {
+            "title": "Global E-commerce Solutions",
+            "text_short": "Expand your e-commerce business globally with Translation Daddy's comprehensive language solutions.",
+            "text_long": "With Translation Daddy's Global E-commerce Solutions, you can break language barriers and reach customers worldwide. Our expert linguists and localization specialists ensure that your product listings, website content, and customer support are culturally relevant and linguistically accurate. We offer end-to-end language services, empowering you to tap into new markets and drive international growth for your e-commerce venture.",
+            "link": "/services/global-e-commerce-solutions",
+            "services": [
+                {
+                    "title": "Website Translation",
+                    "text": "Translate your e-commerce website into multiple languages, providing seamless user experiences for global customers.",
+                    "price": "$0.12",
+                    "per": "word"
+                },
+                {
+                    "title": "Product Description Localization",
+                    "text": "Localize your product descriptions to resonate with diverse audiences, boosting conversions.",
+                    "price": "$0.15",
+                    "per": "word"
+                },
+                {
+                    "title": "Multilingual Customer Support",
+                    "text": "Provide multilingual customer support through email, chat, or phone, enhancing customer satisfaction.",
+                    "price": "$30",
+                    "per": "hour"
+                },
+                {
+                    "title": "International SEO",
+                    "text": "Optimize your website for international search engines, driving organic traffic from various regions.",
+                    "price": "$150",
+                    "per": "month"
+                }
+            ]
+        },
+        {
+            "title": "Legal Translation and Notarization",
+            "text_short": "Ensure legal compliance and seamless global communication with Translation Daddy's Legal Translation and Notarization services.",
+            "text_long": "Translation Daddy's Legal Translation and Notarization services offer accurate and certified translations for all your legal documents. Our qualified legal translators, along with certified notaries, ensure that your legal content is accurately translated and legally valid in target markets. Whether it's contracts, patents, immigration documents, or court papers, our team ensures confidentiality and precision in all legal translations.",
+            "link": "/services/legal-translation-and-notarization",
+            "services": [
+                {
+                    "title": "Certified Document Translation",
+                    "text": "Accurate and certified translation of legal documents, such as contracts and agreements.",
+                    "price": "$0.15",
+                    "per": "word"
+                },
+                {
+                    "title": "Patent Translation",
+                    "text": "Translation of patent applications and related documents, meeting international patent office requirements.",
+                    "price": "$0.18",
+                    "per": "word"
+                },
+                {
+                    "title": "Immigration Document Translation",
+                    "text": "Certified translation of immigration documents, facilitating visa and immigration processes.",
+                    "price": "$40",
+                    "per": "page"
+                },
+                {
+                    "title": "Notarization Service",
+                    "text": "Notarization of translated documents for legal authenticity and acceptance.",
+                    "price": "$50",
+                    "per": "document"
+                }
+            ]
+        },
+        {
+            "title": "Medical and Healthcare Localization",
+            "text_short": "Ensure accurate medical communication with Translation Daddy's Medical and Healthcare Localization services.",
+            "text_long": "Translation Daddy's Medical and Healthcare Localization services cater to the unique language requirements of the healthcare industry. From medical reports to pharmaceutical documentation, we provide precise translations, adhering to strict medical terminology. Our specialized medical translators and subject matter experts ensure compliance with international regulations, enabling you to provide quality healthcare services to diverse populations.",
+            "link": "/services/medical-and-healthcare-localization",
+            "services": [
+                {
+                    "title": "Medical Report Translation",
+                    "text": "Translation of medical reports, patient records, and lab results.",
+                    "price": "$0.14",
+                    "per": "word"
+                },
+                {
+                    "title": "Pharmaceutical Translation",
+                    "text": "Translation of drug labels, package inserts, and clinical trial documents.",
+                    "price": "$0.17",
+                    "per": "word"
+                },
+                {
+                    "title": "Healthcare Website Localization",
+                    "text": "Localize your healthcare website for different markets, reflecting cultural sensitivities.",
+                    "price": "$0.18",
+                    "per": "word"
+                },
+                {
+                    "title": "Medical Device Manuals",
+                    "text": "Translation of user manuals and instructions for medical devices.",
+                    "price": "$0.20",
+                    "per": "word"
+                }
+            ]
+        }
+    ],
+    "contacts": {
+        "phone": "(542) 732 6422",
+        "mail": "support@translation-daddy.com",
+        "adress": "3011 D Avenue, Kearney, NE 68847, USA"
+    },
+    "faq": [
+        {
+            "q": "What languages do you offer translation services for?",
+            "a": "At Translation Daddy, we take pride in our extensive language capabilities. We offer translation services for a vast array of languages, covering major global languages such as English, Spanish, French, German, Chinese, Japanese, Arabic, and many more. Additionally, we also cater to rare and less commonly spoken dialects, ensuring that our clients can connect with diverse audiences worldwide, regardless of the language they need."
+        },
+        {
+            "q": "Are your translators native speakers of the target language?",
+            "a": "Yes, we understand the importance of linguistic authenticity and cultural sensitivity in translations. All our translators are native speakers of the target language, ensuring that your content reads naturally and resonates with the intended audience. Their deep understanding of idioms, colloquialisms, and cultural nuances ensures accurate and contextually appropriate translations, creating an authentic connection with your target market."
+        },
+        {
+            "q": "What industries do you serve with your translation services?",
+            "a": "At Translation Daddy, we have the expertise to serve a wide range of industries. From corporate businesses and legal firms to healthcare providers, technology companies, marketing agencies, and e-commerce ventures, we tailor our translations to suit the unique language requirements of each industry. Our linguists and subject matter experts possess domain-specific knowledge, enabling them to deliver industry-specific translations that meet the highest standards of accuracy."
+        },
+        {
+            "q": "What types of documents do you translate?",
+            "a": "Translation Daddy caters to various types of documents, covering both personal and professional content. We handle legal documents, such as contracts and agreements, marketing materials, including brochures and advertisements, technical manuals, medical reports, academic documents, websites, software interfaces, and much more. No matter the complexity or subject matter, our skilled team ensures that your content is accurately and effectively translated."
+        },
+        {
+            "q": "How do you ensure the confidentiality of my documents?",
+            "a": "We understand the significance of data security and confidentiality. At Translation Daddy, we implement strict confidentiality protocols to protect your sensitive information. All our translators sign non-disclosure agreements (NDAs) to ensure the confidentiality of your documents. Additionally, we employ secure file transfer systems and limit access to authorized personnel only, safeguarding your data throughout the translation process."
+        },
+        {
+            "q": "What is the turnaround time for translations?",
+            "a": "The turnaround time for translations varies depending on the size, complexity, and specific requirements of each project. We understand that time is of the essence, especially in the fast-paced business world. Therefore, we strive to deliver translations within agreed timelines without compromising on quality. Our dedicated project managers work closely with you to set realistic deadlines and ensure that your projects are completed promptly."
+        },
+        {
+            "q": "Can you handle urgent translation requests?",
+            "a": "Yes, we are well-equipped to handle urgent translation requests. We understand that sometimes you might have time-sensitive projects that require quick turnarounds. Our team is adept at managing urgent requests and providing expedited translation services without compromising the quality or accuracy of the translations."
+        },
+        {
+            "q": "Do you offer proofreading and editing services?",
+            "a": "Absolutely! Quality is of utmost importance to us, and we go the extra mile to ensure that your translated content is error-free and polished. Our team of skilled editors and proofreaders meticulously review each translation, checking for accuracy, grammar, punctuation, and consistency. This comprehensive review process guarantees that your translated content meets the highest linguistic standards."
+        },
+        {
+            "q": "Do you offer localization services for websites and apps?",
+            "a": "Yes, we understand that successful global communication goes beyond just literal translation. That's why we offer comprehensive localization services for websites, apps, and software. Localization involves adapting your content to the target audience's cultural preferences, idioms, and conventions, ensuring that it resonates with the local market. Our expert team ensures that your digital presence is culturally relevant and linguistically accurate, enhancing the user experience and making a lasting impact on your international audience."
+        },
+        {
+            "q": "How do you ensure translation accuracy?",
+            "a": "We prioritize accuracy at every step of the translation process. Our team of skilled linguists and subject matter experts possesses specialized knowledge in various domains, allowing them to provide precise and contextually appropriate translations. To maintain consistency and accuracy, we utilize advanced technology, such as translation memory tools and glossaries, which help us adhere to approved terminology and maintain consistency across your documents. Moreover, all translations undergo rigorous quality assurance checks to ensure that they meet our stringent standards."
+        },
+        {
+            "q": "What file formats do you accept for translation?",
+            "a": "We understand that documents come in various formats, and we strive to accommodate our clients' needs. We accept a wide range of file formats, including but not limited to Word documents, PDFs, Excel spreadsheets, PowerPoint presentations, HTML files, XML, and more. Our team is adept at handling different file formats, ensuring seamless and accurate translations regardless of the original format."
+        },
+        {
+            "q": "What is your pricing structure for translation services?",
+            "a": "Our pricing structure is competitive and transparent. The cost of our translation services is based on various factors, including the word count of the document, the language pairs involved, the complexity of the content, and the deadline for delivery. We provide detailed quotes tailored to your specific project requirements, allowing you to understand the cost upfront and make an informed decision."
+        },
+        {
+            "q": "Do you offer volume discounts for large projects?",
+            "a": "Yes, we value our clients' trust and strive to build long-term relationships. For larger projects or recurring business, we offer volume discounts as a token of appreciation for your continued support. Our flexible pricing ensures that you receive cost-effective solutions without compromising on the quality of our services."
+        },
+        {
+            "q": "Do you offer machine translation services?",
+            "a": "While we acknowledge the advancements in machine translation technology, we firmly believe in the value of human expertise in providing accurate and culturally sensitive translations. At Translation Daddy, we only rely on human translators who are native speakers of the target language and possess subject matter expertise. This approach ensures the highest quality translations that meet the unique needs of each project and maintain linguistic nuances. Our commitment to excellence drives us to offer human-driven translations, providing you with reliable and professional language solutions."
+        },
+        {
+            "q": "How can I contact your customer support team?",
+            "a": "Our dedicated customer support team is ready to assist you with any queries or concerns you may have. You can contact us via email, phone, or the contact form on our website. We are committed to providing timely and friendly support, ensuring that you have a seamless and satisfying experience with Translation Daddy."
+        }
+    ]    
+}
