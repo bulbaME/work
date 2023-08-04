@@ -1,0 +1,165 @@
+{
+    "services": [
+        {
+            "title": "Web Design and Development",
+            "text_short": "Elevate your online presence with expert web design and development.",
+            "text_long": "At 5K Designs, we are masters of crafting stunning and intuitive websites that make a lasting impact. Our talented team of web designers and developers collaborate to create user-centric experiences that reflect your brand's essence and drive results. We meticulously plan each element of your website, from sleek aesthetics to seamless navigation, ensuring that your visitors stay engaged and converted. With the latest web technologies at our fingertips, we construct scalable and responsive websites that adapt beautifully to all devices. Let us empower your online presence with a website that exudes excellence.",
+            "link": "/services/web-design-and-development",
+            "services": [
+                {
+                    "title": "Responsive Website Design",
+                    "text": "Craft a visually stunning and responsive website that adapts seamlessly across all devices.",
+                    "price": "$1500",
+                    "per": "website"
+                },
+                {
+                    "title": "E-commerce Website Development",
+                    "text": "Set up a powerful online store with a user-friendly interface and robust functionalities.",
+                    "price": "$2500",
+                    "per": "website"
+                },
+                {
+                    "title": "Landing Page Design",
+                    "text": "Create a compelling landing page optimized for conversions and lead generation.",
+                    "price": "$500",
+                    "per": "page"
+                },
+                {
+                    "title": "Custom Web Application Development",
+                    "text": "Develop bespoke web applications tailored to your unique requirements.",
+                    "price": "$3000",
+                    "per": "application"
+                }
+            ]
+        },
+        {
+            "title": "Branding and Identity",
+            "text_short": "Shape a brand that captivates and resonates with our branding and identity services.",
+            "text_long": "Unleash the power of branding with 5K Designs. Our branding experts are committed to shaping your brand identity with strategic insights and creative brilliance. We take the time to understand your values, mission, and target audience, ensuring that every aspect of your brand communicates your essence cohesively. From logo design that captures your essence to brand guidelines that maintain consistency across all touchpoints, we create a brand identity that leaves a lasting impression on your customers. Let us help you build a brand that stands out from the competition and inspires loyalty.",
+            "link": "/services/branding-and-identity",
+            "services": [
+                {
+                    "title": "Logo Design",
+                    "text": "Craft a memorable and impactful logo that represents your brand's personality.",
+                    "price": "$500",
+                    "per": "logo"
+                },
+                {
+                    "title": "Brand Guidelines",
+                    "text": "Establish a comprehensive set of guidelines for consistent brand application.",
+                    "price": "$1000",
+                    "per": "set"
+                },
+                {
+                    "title": "Business Card and Stationery Design",
+                    "text": "Create professional and branded business cards and stationery.",
+                    "price": "$250",
+                    "per": "set"
+                },
+                {
+                    "title": "Brand Messaging and Positioning",
+                    "text": "Define your brand's unique voice and positioning in the market.",
+                    "price": "$800",
+                    "per": "project"
+                }
+            ]
+        },
+        {
+            "title": "Graphic Design",
+            "text_short": "Captivate your audience with our exceptional graphic design services.",
+            "text_long": "Make a visual impact with our exceptional graphic design services. Our creative team transforms ideas into eye-catching visuals that communicate your message effectively. From eye-catching social media graphics to visually striking marketing materials, we craft designs that elevate your brand's identity and captivate your audience. With an acute attention to detail and a passion for perfection, we breathe life into your creative vision and bring it to the forefront of your marketing efforts. Embrace the power of compelling visuals with 5K Designs.",
+            "link": "/services/graphic-design",
+            "services": [
+                {
+                    "title": "Social Media Graphics",
+                    "text": "Enhance your brand's online presence with captivating social media graphics.",
+                    "price": "$150",
+                    "per": "set"
+                },
+                {
+                    "title": "Brochure and Flyer Design",
+                    "text": "Create informative and eye-catching brochures and flyers.",
+                    "price": "$300",
+                    "per": "design"
+                },
+                {
+                    "title": "Infographic Creation",
+                    "text": "Simplify complex information with visually engaging infographics.",
+                    "price": "$200",
+                    "per": "infographic"
+                },
+                {
+                    "title": "Poster and Banner Design",
+                    "text": "Promote your brand with attention-grabbing posters and banners.",
+                    "price": "$150",
+                    "per": "design"
+                }
+            ]
+        }
+    ],
+
+    "contacts": {
+        "phone": "+42 (263) 967-3418",
+        "mail": "support@5k-designs.com",
+        "adress": "Strada Scorțarilor 30-34, Cluj-Napoca 400394, Romania"
+    },
+
+    "faq": [
+        {
+            "q": "What makes 5K Designs stand out from other design agencies?",
+            "a": "At 5K Designs, we believe in the perfect fusion of creativity, innovation, and functionality. Our team of talented designers and developers are passionate about pushing the boundaries of design excellence. With a personalized approach and transparent collaboration, we tailor our solutions to align perfectly with your brand identity and objectives, setting your brand apart from the competition."
+        },
+        {
+            "q": "How do you ensure my design project reflects my brand's personality?",
+            "a": "We take the time to understand your brand's essence through in-depth consultations and research. Our team collaborates closely with you to grasp your values, goals, and target audience. By carefully considering your feedback at every step of the process, we craft designs that truly resonate with your brand's personality and essence, ensuring an authentic representation that connects with your audience."
+        },
+        {
+            "q": "How do you ensure the design process is transparent and collaborative?",
+            "a": "Open communication and collaboration are integral to our design process. From the initial consultation to project delivery, we keep you informed at every stage. We actively seek your feedback, making sure your vision is at the heart of our creations. Our transparent approach ensures that you have complete visibility into the design process, empowering you to be an active part of shaping the final outcome."
+        },
+        {
+            "q": "What if I have changes or revisions during the design process?",
+            "a": "We welcome your input and understand that feedback is essential for achieving the best results. Throughout the design process, we provide multiple opportunities for you to share your thoughts and request revisions. We iterate and refine the designs based on your feedback until you are fully satisfied with the final product."
+        },
+        {
+            "q": "What is the typical turnaround time for design projects at 5K Designs?",
+            "a": "The turnaround time for each design project varies depending on its complexity and scope. During our initial consultation, we'll discuss your project's timeline and set clear expectations. Rest assured that we work efficiently to deliver exceptional designs within agreed-upon deadlines without compromising on quality."
+        },
+        {
+            "q": "How do you ensure that my website is optimized for mobile devices and different screen sizes?",
+            "a": "We prioritize responsive design to ensure that your website seamlessly adapts to various screen sizes, including mobile devices, tablets, and desktops. Our team follows industry best practices and performs thorough testing to guarantee that your website delivers an optimal user experience across all devices."
+        },
+        {
+            "q": "Can you help with redesigning an existing website or rebranding my business?",
+            "a": "Absolutely! We understand that businesses evolve, and design updates may be necessary to stay relevant. Whether you need a complete website redesign or a brand refresh, we have the expertise to transform your vision into a cohesive and impactful representation of your brand."
+        },
+        {
+            "q": "Do you provide ongoing design support or retainers for long-term projects?",
+            "a": "Yes, we offer ongoing design support and retainer options for clients with continuous design needs. Whether you require regular design updates, marketing collateral, or seasonal campaigns, our retainer packages provide cost-effective solutions for a lasting partnership."
+        },
+        {
+            "q": "How do I know that my design project will remain confidential and secure?",
+            "a": "Client confidentiality and data security are paramount to us. We adhere to strict privacy protocols, ensuring that your project details and sensitive information remain confidential and secure. Additionally, we are open to signing non-disclosure agreements (NDAs) to provide an added layer of assurance for your peace of mind."
+        },
+        {
+            "q": "Are there any hidden costs or additional charges in your design packages?",
+            "a": "At 5K Designs, transparency is one of our core principles. We provide detailed proposals outlining all costs associated with your project. There are no hidden fees or surprise charges—what you see in the proposal is what you'll pay. If there are any adjustments during the project, we'll discuss them with you in advance to ensure complete clarity."
+        },
+        {
+            "q": "What if I'm not satisfied with the final design?",
+            "a": "Our commitment to your satisfaction is unwavering. If, for any reason, you are not completely satisfied with the final design, we'll work closely with you to understand your concerns and make necessary revisions until you are delighted with the result. Your happiness is our top priority, and we are dedicated to delivering designs that exceed your expectations."
+        },
+        {
+            "q": "Can you provide printing services for physical marketing materials?",
+            "a": "While we specialize in digital design, we have a network of trusted partners who excel in printing services. We can collaborate with them to handle the printing of your marketing materials, ensuring that the final output matches the high-quality design standards we uphold."
+        },
+        {
+            "q": "What payment methods do you accept?",
+            "a": "We offer various convenient payment methods, including credit cards, bank transfers, and online payment platforms. We'll discuss the payment details and options during the project initiation phase to accommodate your preferences."
+        },
+        {
+            "q": "How can I review the progress of my design project?",
+            "a": "During the design process, we provide regular updates on the project's progress. We will share design drafts and mockups with you, giving you the opportunity to provide feedback and guide the direction of the project. Our transparent communication ensures you are actively involved throughout the design journey."
+        }
+    ]
+}
