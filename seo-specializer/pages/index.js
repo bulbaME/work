@@ -7,15 +7,15 @@ export default function X() {
     return <>
         <Header page={1} />
         <div className='bg-1'>
-            <div className='max-w-7xl m-auto p-4 sm:p-12 sm:py-16 flex flex-wrap'>
+            <div className='max-w-7xl m-auto p-4 sm:p-12 sm:py-28 flex flex-wrap'>
                 <div className='md:w-3/5 md:pr-5'>
                     <div className='sm:text-5xl text-3xl font-extrabold text-white'>
                         <WAppear>{"Discover the Art of SEO with SeoSpecializer"}</WAppear>
                     </div>
                     <div className=''>
-                        <P1 title="Unlocking SEO's Power, Together!" text="Welcome to SeoSpecializer, your ultimate destination for unlocking the power of SEO! As a leading authority in search engine optimization, we are dedicated to helping businesses and individuals achieve online success. With our expertise and innovative strategies, we'll guide you through the dynamic world of SEO, empowering you to increase visibility, drive organic traffic, and boost your rankings on search engines." />
-                        <P1 title="Customized Strategies, Elevated Results!" text="Elevate your online presence with our tailored SEO solutions! Our team of seasoned SEO specialists is passionate about crafting customized strategies that cater to your unique needs and goals. From comprehensive website audits to keyword research and on-page optimization, we leave no stone unturned to ensure that your website climbs the ranks and attracts your target audience." />
-                        <P1 title="Stay Ahead, Thrive with SeoSpecializer!" text="Stay ahead in the digital landscape with SeoSpecializer! In the ever-evolving world of SEO, we stay up-to-date with the latest trends and algorithms, ensuring that your website remains relevant and competitive. With our data-driven approach and transparent reporting, you can have confidence in the results-driven strategies we employ to help your business thrive." />
+                        <P1 title="Unlocking SEO's Power, Together!" text="Welcome to SeoSpecializer, your ultimate destination for unlocking the power of SEO! As a leading authority in search engine optimization, we are dedicated to helping businesses and individuals achieve online success." />
+                        <P1 title="Customized Strategies, Elevated Results!" text="Elevate your online presence with our tailored SEO solutions! Our team of seasoned SEO specialists is passionate about crafting customized strategies that cater to your unique needs and goals." />
+                        <P1 title="Stay Ahead, Thrive with SeoSpecializer!" text="Stay ahead in the digital landscape with SeoSpecializer! In the ever-evolving world of SEO, we stay up-to-date with the latest trends and algorithms, ensuring that your website remains relevant and competitive." />
                     </div>
                     <div className='flex w-fit my-8 m-auto p-1 px-3 pl-2 bg-white text-black hover:rounded-2xl duration-300 rounded-lg'>
                         <div className='mr-2 my-auto'>

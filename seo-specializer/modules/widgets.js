@@ -261,7 +261,7 @@ function CService(props) {
                 {props.text}
             </div>
             <div className='my-8 w-fit m-auto bg-white p-2 px-3 sm:text-xl text-lg font-bold rounded-lg hover:rounded-2xl duration-300'>
-                <Link href='.contact'>Select</Link>
+                <Link href='/contact'>Select</Link>
             </div>
         </div>
         </WAppear></div>;
