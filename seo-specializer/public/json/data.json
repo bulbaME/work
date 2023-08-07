@@ -1,0 +1,87 @@
+{
+    "contacts": {
+        "phone": "+42 (461) 591-815",
+        "mail": "support@seospecializer.com",
+        "adress": "825 Manning Ave, Columbus, OH 43205, USA"
+    },
+    "services": [
+        {
+            "title": "On-Page Optimization Mastery",
+            "text_short": "Enhance your website's visibility and user experience.",
+            "text_long": "Our On-Page Optimization Mastery service is designed to boost your website's search engine visibility and user experience. Our experts dive deep into your website's content, structure, and technical aspects to ensure it aligns with the latest SEO best practices. Through keyword research, meta tag optimization, and content enhancement, we deliver a comprehensive on-page strategy tailored to your unique business needs. Witness higher rankings, increased organic traffic, and improved user engagement as your website becomes more relevant and user-friendly.",
+            "link": "/services/on-page-optimization-mastery",
+            "services": [
+                {
+                    "title": "Keyword Research and Analysis",
+                    "text": "Our comprehensive keyword research and analysis service identify high-value keywords relevant to your industry and target audience. We delve into search trends and competition to uncover the most valuable keywords for your website. By integrating these strategic keywords into your content, meta tags, and headings, we boost your website's visibility on search engines and drive targeted organic traffic.",
+                    "price": "$300",
+                    "per": "website"
+                },
+                {
+                    "title": "Meta Tag Optimization",
+                    "text": "Our Meta Tag Optimization service ensures that your website's meta tags, including title tags and meta descriptions, are effectively optimized for search engines and users. We craft compelling and keyword-rich meta tags that entice users to click on your links in search results, improving click-through rates and enhancing your website's overall SEO performance.",
+                    "price": "$150",
+                    "per": "website"
+                },
+                {
+                    "title": "Content Enhancement",
+                    "text": "Elevate your website's content with our Content Enhancement service. Our SEO experts analyze and optimize your existing content, ensuring it is informative, engaging, and aligned with relevant keywords. By providing value to your audience, search engines recognize your website's authority and relevance, leading to higher rankings and improved user experience.",
+                    "price": "$250",
+                    "per": "website"
+                }
+            ]
+        },
+        {
+            "title": "Local SEO Domination",
+            "text_short": "Conquer your local market and attract more customers.",
+            "text_long": "Our Local SEO Domination service puts your business on the map - literally! Harness the power of local search and reach customers in your area effectively. Our specialists ensure that your business information is consistent and optimized across local directories, maps, and search engines. With geo-targeted content, Google My Business optimization, and local link building, your business will stand out among competitors and attract more local customers. Experience increased foot traffic, higher conversion rates, and long-term growth with our targeted local SEO strategy.",
+            "link": "/services/local-seo-domination",
+            "services": [
+                {
+                    "title": "Google My Business Optimization",
+                    "text": "Make a strong local impact with our Google My Business Optimization service. We optimize your Google My Business profile, ensuring all vital information is accurate and up-to-date. By leveraging customer reviews, images, and relevant content, we enhance your online presence and increase local visibility, making your business more discoverable to potential customers.",
+                    "price": "$200",
+                    "per": "profile"
+                },
+                {
+                    "title": "Local Directory Listings",
+                    "text": "Improve your local SEO presence with our Local Directory Listings service. We manually submit your business information to reputable local directories and citation sites, ensuring consistency across the web. This helps search engines associate your business with your location, giving you a competitive edge in local search results.",
+                    "price": "$100",
+                    "per": "listing"
+                },
+                {
+                    "title": "Geo-Targeted Content Creation",
+                    "text": "Our Geo-Targeted Content Creation service tailors content to specific geographic regions, attracting local customers and strengthening your local SEO efforts. Our expert writers craft engaging and relevant content that resonates with your local audience, establishing your brand as an authority in your area and driving more local traffic to your website.",
+                    "price": "$150",
+                    "per": "piece"
+                }
+            ]
+        },
+        {
+            "title": "Mobile-First SEO Revolution",
+            "text_short": "Embrace the mobile revolution and attract more mobile users.",
+            "text_long": "In today's mobile-centric world, being mobile-friendly is not enough; you need to be mobile-first! Our Mobile-First SEO Revolution service ensures your website performs optimally across all mobile devices. From responsive design and mobile speed optimization to voice search readiness, we cater to the needs of mobile users. Embrace the mobile revolution, reach a broader audience, and improve your search rankings significantly. With our expertise, you'll stay ahead of the curve and capture the growing mobile audience.",
+            "link": "/services/mobile-first-seo-revolution",
+            "services": [
+                {
+                    "title": "Mobile Speed Optimization",
+                    "text": "Improve user experience and search rankings with our Mobile Speed Optimization service. Our experts optimize your website's loading speed for mobile devices, ensuring quick and smooth navigation. A faster website leads to reduced bounce rates, increased engagement, and higher chances of conversion.",
+                    "price": "$150",
+                    "per": "website"
+                },
+                {
+                    "title": "Responsive Design Implementation",
+                    "text": "Embrace the mobile revolution with our Responsive Design Implementation service. We ensure your website adapts seamlessly to various screen sizes and devices, providing an optimal user experience. A responsive design boosts your website's mobile-friendliness, positively impacting search rankings and user satisfaction.",
+                    "price": "$250",
+                    "per": "website"
+                },
+                {
+                    "title": "Voice Search Optimization",
+                    "text": "Stay ahead of the voice search trend with our Voice Search Optimization service. Our team optimizes your content to match voice search queries, improving your chances of appearing in voice search results. As voice assistants become more prevalent, this service ensures your website is ready to cater to voice-driven searches and capture valuable traffic.",
+                    "price": "$200",
+                    "per": "website"
+                }
+            ]
+        }
+    ]
+}
