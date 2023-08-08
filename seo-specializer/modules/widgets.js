@@ -84,7 +84,7 @@ export function CKeyFSmall(props) {
             </div>
         </div>
         <div className='ml-12'>
-            {...f}
+            {/* {...f} */}
         </div>
     </WAppear></div>;
 }

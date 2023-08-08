@@ -7,29 +7,20 @@ export default function X() {
     return <>
         <Header page={1} />
         <div className='bg-1'>
-            <div className='max-w-7xl m-auto p-4 sm:p-12 sm:py-28 flex flex-wrap'>
+            <div className='max-w-7xl m-auto p-4 sm:p-12 sm:py-36 flex flex-wrap'>
                 <div className='md:w-3/5 md:pr-5'>
                     <div className='sm:text-5xl text-3xl font-extrabold text-white'>
                         <WAppear>{"Discover the Art of SEO with SeoSpecializer"}</WAppear>
                     </div>
-                    <div className=''>
-                        <P1 title="Unlocking SEO's Power, Together!" text="Welcome to SeoSpecializer, your ultimate destination for unlocking the power of SEO! As a leading authority in search engine optimization, we are dedicated to helping businesses and individuals achieve online success." />
-                        <P1 title="Customized Strategies, Elevated Results!" text="Elevate your online presence with our tailored SEO solutions! Our team of seasoned SEO specialists is passionate about crafting customized strategies that cater to your unique needs and goals." />
-                        <P1 title="Stay Ahead, Thrive with SeoSpecializer!" text="Stay ahead in the digital landscape with SeoSpecializer! In the ever-evolving world of SEO, we stay up-to-date with the latest trends and algorithms, ensuring that your website remains relevant and competitive." />
-                    </div>
-                    <div className='flex w-fit my-8 m-auto p-1 px-3 pl-2 bg-white text-black hover:rounded-2xl duration-300 rounded-lg'>
-                        <div className='mr-2 my-auto'>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
-                            <path fillRule="evenodd" d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clipRule="evenodd" />
-                            <path d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z" />
-                            </svg>
-                        </div>
-                        <div className='sm:text-2xl text-xl font-extrabold decoration-2'>
-                            <Link href='/contact'>Skyrocket Your Online Success</Link>
-                        </div>
+                    <div className='mt-16'>
+                        <P1 title="Unlocking SEO's Power, Together!" text="Welcome to SeoSpecializer, your ultimate destination for unlocking the power of SEO! " />
+                        <div className='sm:py-2' />
+                        <P1 title="Customized Strategies, Elevated Results!" text="Elevate your online presence with our tailored SEO solutions!" />
+                        <div className='sm:py-2' />
+                        <P1 title="Stay Ahead, Thrive with SeoSpecializer!" text="Stay ahead in the digital landscape with SeoSpecializer!" />
                     </div>
                 </div>
-                <div className='md:w-2/5 md:pl-5 flex flex-wrap'>
+                <div className='md:w-2/5 md:pl-5 flex flex-wrap my-auto mb-0'>
                     <CKeyFSmall 
                         title='Personalized SEO Strategies'
                         f={[
@@ -70,6 +61,17 @@ export default function X() {
                             "Local SEO Strategies",
                         ]}
                     />
+                </div>
+                <div className='flex w-fit my-8 m-auto p-1 px-3 pl-2 bg-white text-black hover:rounded-2xl duration-300 rounded-lg mt-24'>
+                        <div className='mr-2 my-auto'>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                            <path fillRule="evenodd" d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clipRule="evenodd" />
+                            <path d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z" />
+                            </svg>
+                        </div>
+                        <div className='sm:text-2xl text-xl font-extrabold decoration-2'>
+                            <Link href='/contact'>Skyrocket Your Online Success</Link>
+                        </div>
                 </div>
             </div>
         </div>
