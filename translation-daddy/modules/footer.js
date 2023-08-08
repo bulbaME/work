@@ -25,7 +25,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='m-auto py-6 px-8 sm:ml-auto ml-0 md:w-1/3'>
-                {"Translation Daddy - Breaking Barriers, Empowering Communication. Contact us for inquiries or explore our services. © 2023 Translation Daddy. All rights reserved."}
+                {"Translator Daddy - Breaking Barriers, Empowering Communication. Contact us for inquiries or explore our services. © 2023 Translator Daddy. All rights reserved."}
             </div>
         </div>
         <div className='m-auto flex flex-wrap w-fit py-6'>

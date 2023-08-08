@@ -5,7 +5,7 @@ export default function Document() {
         <Html lang="en">
             <Head>
                 <link rel="icon" href="/img/favicon.ico" />
-                <title>Translation Daddy - Translation Services</title>
+                <title>Translator Daddy - Translation Services</title>
             </Head>
             <body className='bg-stone-100'>
                 <Main />

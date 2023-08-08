@@ -50,7 +50,7 @@ export default function Header(props) {
         <div className='fixed w-full duration-300 z-50 bg-b-m drop-shadow-lg'>
             <div className='max-w-7xl flex flex-wrap m-auto p-2 py-4 duration-300 text-white'>
                 <div className='m-auto ml-0 w-fit flex'>
-                    <div className='sm:text-3xl text-xl font-extrabold header-title m-auto pl-4'><Link href='/'>Translation Daddy</Link></div>
+                    <div className='sm:text-3xl text-xl font-extrabold header-title m-auto pl-4'><Link href='/'>Translator Daddy</Link></div>
                 </div>
                 <div className='md:flex hidden m-auto sm:w-fit sm:mr-2'>
                     <div id='hu' className='absolute -z-10 h-[2.3rem] duration-300 -mt-1 ease-in-out border-[2px] drop-shadow-lg bg-b-m border-neutral-200 rounded-2xl' onMouseOver={() => setHover(hover)} onMouseLeave={() => setHover(head_page)}></div>

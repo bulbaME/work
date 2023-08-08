@@ -21,7 +21,7 @@ export default function X() {
         <Header page={2} />
         <div className='max-w-7xl m-auto p-6 py-10 text-center'>
             <div className='sm:text-3xl text-xl font-bold text-b-m'>
-                {"Contact Translation Daddy"}
+                {"Contact Translator Daddy"}
             </div>
             <div className='sm:text-xl text-lg text-b-d font-bold my-4'>
                 {"Reach Out, Break Barriers - Let's Connect!"}
