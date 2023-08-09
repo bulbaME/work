@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-    title: 'PinkBerryDesigns - Design Company',
+    title: 'Fencer Design - Design Company',
     description: 'Design Company',
 }
 

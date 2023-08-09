@@ -27,7 +27,7 @@ export default function Header(props) {
         <div className='fixed w-full p-4 bg-black drop-shadow-lg z-50'>
             <div className='max-w-7xl m-auto flex'>
                 <div className='font-bold text-2xl text-white'>
-                    <Link href='/'>PinkBerryDesigns</Link>
+                    <Link href='/'>Fencer Design</Link>
                 </div>
                 <div className='sm:flex hidden m-auto mr-0'>
                     <Button route='/' text='Home' sel={props.page == 1} />
