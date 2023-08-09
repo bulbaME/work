@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { Listbox } from "@headlessui/react";
 import Image from "next/image";
 import { Router, useRouter } from "next/router";
+import send_form from "@/modules/send_form";
 
 import { services, faq } from "@/public/json/data.json";
 
