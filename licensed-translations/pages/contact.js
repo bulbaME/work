@@ -94,13 +94,13 @@ export default function X() {
                             <Listbox.Option className='cursor-pointer font-semibold p-3 text-white hover:opacity-100 opacity-70 duration-300' key={1} value={services[0].title} >
                                 {services[0].title}
                             </Listbox.Option>
-                            <Listbox.Option className='cursor-pointer font-semibold p-3 text-white hover:opacity-100 opacity-70 duration-300' key={1} value={services[0].title} >
+                            <Listbox.Option className='cursor-pointer font-semibold p-3 text-white hover:opacity-100 opacity-70 duration-300' key={2} value={services[1].title} >
                                 {services[1].title}
                             </Listbox.Option>
-                            <Listbox.Option className='cursor-pointer font-semibold p-3 text-white hover:opacity-100 opacity-70 duration-300' key={1} value={services[0].title} >
+                            <Listbox.Option className='cursor-pointer font-semibold p-3 text-white hover:opacity-100 opacity-70 duration-300' key={3} value={services[2].title} >
                                 {services[2].title}
                             </Listbox.Option>
-                            <Listbox.Option className='cursor-pointer font-semibold p-3 text-white hover:opacity-100 opacity-70 duration-300' key={1} value={services[0].title} >
+                            <Listbox.Option className='cursor-pointer font-semibold p-3 text-white hover:opacity-100 opacity-70 duration-300' key={4} value={services[3].title} >
                                 {services[3].title}
                             </Listbox.Option>
                         </Listbox.Options>

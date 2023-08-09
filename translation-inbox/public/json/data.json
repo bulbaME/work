@@ -1,0 +1,168 @@
+{
+    "contacts": {
+        "phone": "+42 (184) 197-8462",
+        "mail": "support@translationinbox.com",
+        "adress": "3315 Eugenia Ave, Covington, KY 41015, USA"
+    },
+    "services": [
+        {
+            "title": "Business Translation Solutions",
+            "text_short": "Enhance your global business reach with industry-tailored translations.",
+            "text_long": "Elevate your business's global presence with our Business Translation Solutions. Our team of industry-specialized linguists ensures accurate and culturally sensitive translations that resonate with your target audience. From legal documents to marketing materials, we enhance your communication while maintaining precision and professionalism.",
+            "link": "/services/business-translation-solutions",
+            "services": [
+                {
+                "title": "Legal Document Translation",
+                "text": "Accurate translations of contracts, agreements, and legal correspondence.",
+                "price": "$0.12",
+                "per": "word"
+                },
+                {
+                "title": "Marketing Material Localization",
+                "text": "Adaptation of advertising content, brochures, and websites for cultural relevance.",
+                "price": "$0.15",
+                "per": "word"
+                },
+                {
+                "title": "Technical Document Translation",
+                "text": "Precise translation of technical manuals, instructions, and specifications.",
+                "price": "$0.14",
+                "per": "word"
+                },
+                {
+                "title": "Financial Report Translation",
+                "text": "Expert translation of financial reports, statements, and analyses for global stakeholders.",
+                "price": "$0.16",
+                "per": "word"
+                }
+            ]
+        },
+        {
+            "title": "Creative Content Transcreation",
+            "text_short": "Transform your creative content into a global sensation with artistic transcreation.",
+            "text_long": "Ignite emotions and inspire action with our Creative Content Transcreation services. We don't just translate words; we recreate the essence, tone, and cultural appeal of your content. From marketing campaigns to creative writing, our transcreation artists infuse your message with vibrant resonance, ensuring it captivates audiences worldwide.",
+            "link": "/services/creative-content-transcreation",
+            "services": [
+                {
+                "title": "Ad Campaign Transcreation",
+                "text": "Recreate advertisements and slogans to evoke the desired impact in multiple languages.",
+                "price": "$0.18",
+                "per": "word"
+                },
+                {
+                "title": "Brand Story Transcreation",
+                "text": "Craft compelling brand narratives that maintain authenticity while adapting to diverse cultures.",
+                "price": "$0.20",
+                "per": "word"
+                },
+                {
+                "title": "Fictional Story Transcreation",
+                "text": "Transcend language barriers with creatively reimagined fictional works that retain their allure.",
+                "price": "$0.17",
+                "per": "word"
+                },
+                {
+                "title": "Poetic Expression Transcreation",
+                "text": "Elevate the beauty of poetry across languages while preserving its emotional resonance.",
+                "price": "$0.22",
+                "per": "word"
+                }
+            ]
+        },
+        {
+            "title": "Technical Document Localization",
+            "text_short": "Conquer the global market with localized technical documents.",
+            "text_long": "Navigate the global market with confidence using our Technical Document Localization services. Ensure seamless communication of complex technical information to international audiences. Our experts meticulously adapt terminology, formats, and standards, guaranteeing your technical documents remain accurate and effective, no matter the language.",
+            "link": "/services/technical-document-localization",
+            "services": [
+                {
+                "title": "Software User Manual Localization",
+                "text": "Adapt software guides and manuals for users worldwide while retaining clarity.",
+                "price": "$0.13",
+                "per": "word"
+                },
+                {
+                "title": "Engineering Specification Localization",
+                "text": "Accurately translate engineering specs and drawings for seamless cross-border collaboration.",
+                "price": "$0.15",
+                "per": "word"
+                },
+                {
+                "title": "Medical Document Localization",
+                "text": "Ensure precise translation of medical research, reports, and patient information.",
+                "price": "$0.16",
+                "per": "word"
+                },
+                {
+                "title": "Scientific Paper Localization",
+                "text": "Translate research papers and scientific findings while maintaining accuracy and rigor.",
+                "price": "$0.14",
+                "per": "word"
+                }
+            ]
+        }
+    ],
+
+    "faq": [
+        {
+          "q": "What is TranslationInbox?",
+          "a": "TranslationInbox is a leading language services provider that specializes in accurate and culturally sensitive translation solutions. We help businesses and individuals communicate effectively across languages, breaking down barriers and connecting people worldwide."
+        },
+        {
+          "q": "Why should I choose TranslationInbox?",
+          "a": "TranslationInbox stands out for its team of expert linguists, commitment to quality, and personalized approach. We understand the importance of maintaining the true essence of your message while adapting it for different languages and cultures. With our services, you can be confident that your content will be accurately translated and culturally appropriate."
+        },
+        {
+          "q": "What languages do you support?",
+          "a": "TranslationInbox offers translation services for a wide range of languages, covering major global languages as well as specialized and less common ones. Our diverse team of linguists ensures that your content can be translated into the languages most relevant to your target audience."
+        },
+        {
+          "q": "Is my content secure with TranslationInbox?",
+          "a": "Absolutely. At TranslationInbox, we prioritize the security and confidentiality of your content. We employ advanced encryption and secure data handling practices to ensure that your documents and information remain private throughout the translation process."
+        },
+        {
+          "q": "How long does the translation process take?",
+          "a": "The time required for translation depends on various factors, including the complexity of the content, the languages involved, and the volume of the text. Our team will provide you with an estimated timeline when you request a quote, and we always strive to deliver translations promptly without compromising on quality."
+        },
+        {
+          "q": "Can I review and provide feedback on the translation?",
+          "a": "Yes, we value your input. If you'd like to review the translated content and provide feedback, we offer the option for client review. Your feedback helps us ensure that the final translation aligns with your expectations and requirements."
+        },
+        {
+          "q": "How do I contact TranslationInbox for assistance?",
+          "a": "You can easily reach out to our team by filling out the contact form on our website or sending us an email. We're here to answer your questions, provide guidance, and assist you in every step of the translation process."
+        },
+        {
+          "q": "What payment methods do you accept?",
+          "a": "We accept various payment methods, including major credit cards and online payment platforms. Upon finalizing your order, we will provide you with detailed payment instructions."
+        },
+        {
+          "q": "Do you offer expedited translation services?",
+          "a": "Yes, we understand that sometimes you need translations urgently. TranslationInbox offers expedited services for time-sensitive projects. Contact us for more information and to discuss your specific requirements."
+        },
+        {
+          "q": "Are your translations certified for official use?",
+          "a": "Certainly. TranslationInbox provides certified translations that are suitable for official use. Our certified translations are recognized by various institutions, including government agencies, legal entities, and educational institutions."
+        },
+        {
+          "q": "Can you translate technical or industry-specific content?",
+          "a": "Absolutely. Our team of linguists includes subject-matter experts who can handle technical and industry-specific content. We ensure that the terminology and context are accurately translated to maintain the integrity of your specialized content."
+        },
+        {
+          "q": "How do you ensure the accuracy of translations?",
+          "a": "Accuracy is paramount in translation. TranslationInbox employs a rigorous quality assurance process, including proofreading and editing by skilled linguists. We combine human expertise with the latest translation tools to deliver translations that meet the highest standards."
+        },
+        {
+          "q": "Do you offer volume discounts?",
+          "a": "Yes, we offer volume discounts for large projects and ongoing partnerships. The exact discount will depend on the scope of your project and your specific needs. Contact us to discuss your requirements and receive a customized quote."
+        },
+        {
+          "q": "Can you handle urgent translations without compromising quality?",
+          "a": "Absolutely. TranslationInbox is equipped to handle urgent translations while maintaining the same level of quality and accuracy. Our team is skilled at working under tight deadlines, ensuring you receive reliable translations when you need them."
+        },
+        {
+          "q": "What industries do you serve?",
+          "a": "TranslationInbox serves a wide range of industries, including but not limited to legal, medical, technical, marketing, and e-commerce. Our diverse team of linguists and subject-matter experts enables us to provide specialized translations tailored to various industries."
+        }
+      ]
+}
