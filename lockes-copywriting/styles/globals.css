@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Eczar:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Eczar', serif;
+    scroll-behavior: smooth;
+}
+
+.header-title {
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 0.3rem;
+}
+
+.h-c-1 {
+    height: calc(100vh - 31.5rem);
+}

@@ -1,0 +1,87 @@
+{
+    "contacts": {
+        "phone": "+61 (282) 782-5178",
+        "mail": "support@lockescopywriting.com",
+        "adress": "2700 W 13th St, Grand Island, NE 68803, USA"
+    },
+    "services": [
+        {
+            "title": "Brand Storytelling",
+            "text_short": "Craft a compelling brand narrative that captures your essence, engages your audience, and distinguishes you in a crowded market.",
+            "text_long": "Your brand's story is more than just words; it's the heartbeat of your identity. Our Brand Storytelling services delve into the core of who you are, extracting the nuances that resonate with your audience. We weave these elements into a captivating narrative that not only communicates but connects, turning casual visitors into devoted followers.",
+            "link": "/services/brand-storytelling",
+            "services": [
+                {
+                    "title": "Brand Story Development",
+                    "text": "Collaboratively build a comprehensive brand story that aligns with your values and resonates with your target audience.",
+                    "price": "$499",
+                    "per": "project"
+                },
+                {
+                    "title": "About Us Page Enhancement",
+                    "text": "Elevate your \"About Us\" page with a compelling narrative that gives a deeper understanding of your journey, mission, and vision.",
+                    "price": "$199",
+                    "per": "page"
+                },
+                {
+                    "title": "Brand Messaging Guide",
+                    "text": "Create a cohesive brand messaging guide that ensures consistent communication across all platforms and channels.",
+                    "price": "$299",
+                    "per": "guide"
+                }
+            ]
+        },
+        {
+            "title": "SEO-Optimized Content",
+            "text_short": "Boost your online presence with engaging, SEO-optimized content that not only informs but also ranks well in search engines.",
+            "text_long": "In the digital age, visibility is key. Our SEO-Optimized Content services merge creativity with strategy, producing content that captures readers' attention while also aligning with search engine algorithms. From blog posts that educate to product descriptions that sell, we empower your online presence with content that stands out and climbs the ranks.",
+            "link": "/services/seo-optimized-content",
+            "services": [
+                {
+                    "title": "Blog Post Package (5 Posts)",
+                    "text": "Receive five well-researched, SEO-optimized blog posts that establish your expertise and engage your target audience.",
+                    "price": "$599",
+                    "per": "package"
+                },
+                {
+                    "title": "Product Description Revamp",
+                    "text": "Enhance your product descriptions with persuasive copy that communicates value, benefits, and uniqueness effectively.",
+                    "price": "$249",
+                    "per": "product"
+                },
+                {
+                    "title": "Keyword Research Report",
+                    "text": "Gain insights into high-impact keywords and phrases to enhance your content's visibility and search engine ranking.",
+                    "price": "$149",
+                    "per": "report"
+                }
+            ]
+        },
+        {
+            "title": "Social Media Magic",
+            "text_short": "Elevate your online presence with captivating social media content that sparks engagement, builds community, and expands your reach.",
+            "text_long": "Social media isn't just a platform; it's a stage where your brand's voice can shine. Our Social Media Magic services blend creativity and strategy to create posts that resonate with your audience, drive conversations, and elevate your online persona. From strategic planning to influencer collaborations, we're here to help your brand leave a memorable digital footprint.",
+            "link": "/services/social-media-magic",
+            "services": [
+                {
+                    "title": "Social Media Strategy Development",
+                    "text": "Craft a strategic roadmap for your brand's social media journey, identifying target platforms, content themes, and engagement tactics.",
+                    "price": "$349",
+                    "per": "project"
+                },
+                {
+                    "title": "Engagement-Driven Posts",
+                    "text": "Deliver posts that spark conversations, encourage likes and shares, and create a dynamic community around your brand.",
+                    "price": "$99",
+                    "per": "post"
+                },
+                {
+                    "title": "Influencer Collaboration",
+                    "text": "Leverage the power of influencers to amplify your brand's reach, build credibility, and tap into new and engaged audiences.",
+                    "price": "Custom Quote",
+                    "per": "collaboration"
+                }
+            ]
+        }
+    ]
+}

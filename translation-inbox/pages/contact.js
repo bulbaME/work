@@ -8,14 +8,9 @@ import ContactCard from "@/modules/contact_card";
 import Footer from "@/modules/footer";
 import Header from "@/modules/header";
 
-import send_form from "@/modules/send_form";
 import { WAppear, WFaqSmall, WForm, WServicesSmall } from "@/modules/widgets";
 
 export default function X() {
-    const [name, setName] = useState('');
-    const [mail, setMail] = useState('');
-    const [text, setText] = useState('');
-    const [product, setProduct] = useState('Select service');
 
     return <>
         <Header page={2} />
