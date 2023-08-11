@@ -45,7 +45,7 @@ export default function X() {
         </WAppear></div>
         <div className='py-8' />
         <P1 text={<div>
-            Have questions or ready to collaborate? Reach out to us today. Whether you're envisioning a project or simply want to discuss possibilities, we're here to listen and bring your ideas to life. Start the conversation with Lockes Copywriting.
+            {"Have questions or ready to collaborate? Reach out to us today. Whether you're envisioning a project or simply want to discuss possibilities, we're here to listen and bring your ideas to life. Start the conversation with Lockes Copywriting."}
             <div className='mt-2 font-bold underline decoration-2 decoration-o'><Link href='/contact#contact-us'>Reach out about anything!</Link></div>
             </div>} slogan="From Ideas to Conversations: Let's Begin" img={`/img/${7+I}.jpg`} title="Let's Connect" />
         <Footer />
