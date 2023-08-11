@@ -31,11 +31,10 @@ export default function NavMenu(props) {
                     </div>
                 </div>
                 <div className={'ml-4 overflow-hidden transition-height duration-300 -mb-2 ' + (dropDown2 ? 'h-[8rem]':'h-0')}>
-                    <div className={'my-3 mt-1 ' + (props.page == 6 ? 'text-g-m font-bold':'')}><Link href={services[0].link}>{services[0].title}</Link></div>
-                    <div className={'my-3 ' + (props.page == 7 ? 'text-g-m font-bold':'')}><Link href={services[1].link}>{services[1].title}</Link></div>
-                    <div className={'my-3 ' + (props.page == 8 ? 'text-g-m font-bold':'')}><Link href={services[2].link}>{services[2].title}</Link></div>
+                    <div className={'my-3 mt-1 ' + (props.page == 5 ? 'text-g-m font-bold':'')}><Link href={services[0].link}>{services[0].title}</Link></div>
+                    <div className={'my-3 ' + (props.page == 6 ? 'text-g-m font-bold':'')}><Link href={services[1].link}>{services[1].title}</Link></div>
+                    <div className={'my-3 ' + (props.page == 7 ? 'text-g-m font-bold':'')}><Link href={services[2].link}>{services[2].title}</Link></div>
                 </div>
-                <div className={'my-3 ' + (props.page == 5 ? 'text-g-m font-bold':'')}><Link href='/faq'>FAQ</Link></div>
             </div>
         </div>
     </div>;
