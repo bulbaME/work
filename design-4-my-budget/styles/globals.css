@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Montserrat Alternates', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header-title {
+    font-family: 'Yeseva One', cursive;
+}
+
+.bg-1 {
+    background-image: url('/svg/1.svg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.bg-2 {
+    background-image: url('/svg/2.svg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.bg-3 {
+    background-image: url('/svg/3.svg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.h-c-1 {
+    height: calc(100vh - 37.5rem);
+}
