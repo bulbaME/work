@@ -2,7 +2,7 @@
 
 // import NavMenu from "./nav_menu";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { services } from "./data";
 
@@ -23,7 +23,6 @@ export default function Header(props) {
 
     const update_bar = () => {
         if (props.page < 1) return;
-
         const u = document.getElementById('hu');
 
         if (hover == 0) {
@@ -42,11 +41,17 @@ export default function Header(props) {
     }
 
     useEffect(update_bar, [hover]);
-    if (typeof window !== "undefined") window.onresize = update_bar;
+    
+    if (typeof window !== "undefined") {
+        window.onresize = update_bar;
+        window.onscroll = update_bar;
+        window.onload = setTimeout(update_bar, 300);
+    }
 
     useEffect(() => {
         setDD(hover1 || hover2)
     }, [hover1, hover2])
+
 
     return <div>
         <div className='fixed w-full duration-300 z-50 bg-white text-black drop-shadow-lg'>
