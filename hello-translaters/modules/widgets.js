@@ -211,7 +211,7 @@ export function WQuote(props) {
         if (p.length >= 2 && p[0] == 'services') {
             let i = 0;
             for (let j = 0; j < services.length; j++) {
-                if (services[j].title == p[1]) {
+                if (to_link(services[j].title) == p[1]) {
                     i = j;
                     break;
                 }
