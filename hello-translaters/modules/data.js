@@ -29,7 +29,7 @@ export const services =  [
       "title": "Legal & Technical Expertise",
       "text_short": "Ensure accuracy in legal and technical translations with our domain-specific expertise.",
       "text_long": "Navigate legal complexities and technical intricacies seamlessly with our specialized Legal & Technical Expertise services. Our experienced translators understand the precision required in these domains, providing accurate and confidential translations that adhere to industry standards.",
-      "link": "/services/legal-technical-expertise",
+      "link": "/services/legal-&-technical-expertise",
       "services": [
           {
               "title": "Legal Document Translation",
@@ -81,7 +81,7 @@ export const services =  [
       "title": "Medical & Healthcare Translations",
       "text_short": "Facilitate clear medical communication with specialized healthcare translations.",
       "text_long": "Deliver accurate and reliable medical information to a diverse patient and professional audience with our Medical & Healthcare Translations. Our subject-matter experts ensure that medical terminology is understood universally, bridging language gaps in the healthcare sector.",
-      "link": "/services/medical-healthcare-translations",
+      "link": "/services/medical-&-healthcare-translations",
       "services": [
           {
               "title": "Medical Document Translation",
@@ -107,7 +107,7 @@ export const services =  [
       "title": "E-commerce Localization Solutions",
       "text_short": "Optimize e-commerce success with localized product listings and website content.",
       "text_long": "Expand your e-commerce business globally with our E-commerce Localization Solutions. We tailor your product listings and website content to resonate with international customers, ensuring a seamless shopping experience that drives conversions.",
-      "link": "/services/ecommerce-localization-solutions",
+      "link": "/services/e-commerce-localization-solutions",
       "services": [
           {
               "title": "Product Description Translation",
