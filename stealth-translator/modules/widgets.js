@@ -129,7 +129,7 @@ export function WForm() {
                         <div className='sm:w-1/2 sm:pl-3'>
                             <Listbox value={product} onChange={setProduct} >
                                 <Listbox.Button className='py-2 duration-300'>{<div className='cursor-pointer ml-0 font-light w-fit text-white border-[1px] p-2 px-2 bg-black hover:drop-shadow-lg duration-300 text-left sm:text-base text-sm hover:border-m-m border-neutral-600'>{services[product] ? services[product].title:'Select service'}</div>}</Listbox.Button>
-                                <Listbox.Options className='absolute z-50 m-0 rounded-lg drop-shadow-lg font-light transition-all duration-300 border-[1px] bg-white sm:text-base text-sm'>
+                                <Listbox.Options className='absolute z-50 m-0 font-light transition-all border-neutral-600 duration-300 border-[1px] bg-black sm:text-base text-sm'>
                                     <Listbox.Option className={'cursor-pointer px-3 my-2 hover:pl-5 hover:pr-1 duration-300 ' + (product == 0 ? 'font-bold':'')} key={1} value={0} >
                                         {services[0].title}
                                     </Listbox.Option>
@@ -205,7 +205,7 @@ export function WQuote(props) {
         if (p.length >= 2 && p[0] == 'services') {
             let i = 0;
             for (let j = 0; j < services.length; j++) {
-                if (services[j].title == p[1]) {
+                if (to_link(services[j].title) == p[1]) {
                     i = j;
                     break;
                 }
