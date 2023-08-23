@@ -16,8 +16,8 @@ export default function X() {
             </WAppear></div>
         </div>
         <div className='flex flex-wrap max-w-7xl m-auto'>
-            <div className='md:w-1/2 '>
-                <div className='top-[6rem] sticky max-h-[90vh] overflow-y-scroll noscroll'>
+            <div className='md:w-1/2'>
+                <div className='top-[6rem] sticky md:max-h-[90vh] overflow-y-scroll noscroll'>
                     <WFaqSmall />
                 </div>
             </div>
