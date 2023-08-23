@@ -76,6 +76,6 @@ export default function Header(props) {
                 </div> */}
             </div>
         </div>
-        <div className={props.page != 1 ? 'pt-[7rem] sm:pt-[8.5rem] md:pt-[5.2rem]':''} />
+        <div className={props.page != 1 ? 'pt-[6.5rem] sm:pt-[8.5rem] md:pt-[5.2rem]':''} />
     </div>;
 }
